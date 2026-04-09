@@ -71,7 +71,6 @@ under the License.
                                                 <a href="#" class="button button-small button-3d button-black m-0 upper js-submit" data-url="<@ofbizUrl>updateCheckoutOptions/editcontactmech?DONE_PAGE=checkoutOptions&contactMechId=${shippingAddress.contactMechId}</@ofbizUrl>">${SystemLabelMap.CommonUpdateAddress}&nbsp;<i class="bi-pencil"></i></a>
                                              </div>
                                          </div>
-
                                          </td>
                                        </tr>
                                    </#if>
@@ -81,7 +80,7 @@ under the License.
                                     <tr>
                                         <td colspan="2">
                                             <div class="alert alert-info m-0" role="alert">
-                                                ${SystemLabelMap.OrderNoShippingAddressForCountry}
+                                                ${SystemLabelMap.ShippingAddressNotExists}
                                             </div>
                                         </td>
                                     </tr>
