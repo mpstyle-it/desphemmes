@@ -162,7 +162,7 @@
                             </div>
                          </li>
 
-                        <li class="menu-item"><a class="menu-link upper" href="https://www.desphemmes.com"><div>${SystemLabelMap.Brand}</div></a></li>
+                        <li class="menu-item"><a class="menu-link upper" href="https://www.desphemmes.com" target="_blank"><div>${SystemLabelMap.Brand}</div></a></li>
                     </ul>
 
                 </nav><!-- #primary-menu end -->

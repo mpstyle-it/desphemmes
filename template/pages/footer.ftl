@@ -50,7 +50,7 @@
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none">Corporate</h4>
 						<ul class="list-unstyled iconlist ms-0">
-							<li><a href="https://www.desphemmes.com" class="upper">${SystemLabelMap.Brand}</a></li>
+							<li><a href="https://www.desphemmes.com" class="upper" target="_blank">${SystemLabelMap.Brand}</a></li>
 
 						</ul>
 					</div>

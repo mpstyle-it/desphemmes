@@ -460,7 +460,7 @@
                                 </div>
                             </div>
 
-
+                            <#--
                             <div class="toggle mt-3 mb-3">
                                 <div class="toggle-header">
                                     <div class="toggle-icon">
@@ -488,6 +488,7 @@
                                     <p>${SystemLabelMap.ProductCareFiveDescription}</p>
                                	</div>
                             </div>
+                            -->
 
                             <div class="toggle mb-3">
                                 <div class="toggle-header">

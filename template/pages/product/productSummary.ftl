@@ -102,6 +102,8 @@
                      <#if price.specialPromoPrice??>
                         <#if price.specialPromoPrice?? && price.listPrice?? && price.specialPromoPrice?double < price.listPrice?double>
                             <del><ins><@ofbizCurrency amount=price.listPrice isoCode=price.currencyUsed/></ins></del>
+                        <#else>
+                            <ins><@ofbizCurrency amount=price.listPrice isoCode=price.currencyUsed/></ins>
                         </#if>
                      <#else>
                         <#if price.listPrice??>

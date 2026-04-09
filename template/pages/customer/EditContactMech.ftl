@@ -116,7 +116,7 @@ under the License.
 
                 <#if contactMechTypeId??>
                     <#if !contactMech??>
-                        <h2>${SystemLabelMap.PartyCreateNewContactInfo}</h2>
+                        <h2>${SystemLabelMap.PartyCreateNewContactInfo} xxx</h2>
                         <table width="90%" border="0" cellpadding="2" cellspacing="0">
                             <form method="post" action='<@ofbizUrl>${reqName}</@ofbizUrl>' name="editcontactmechform" id="editcontactmechform">
                               <input type='hidden' name='contactMechTypeId' value='${contactMechTypeId}'/>
@@ -131,7 +131,7 @@ under the License.
                                 <input type='hidden' name='paymentMethodId' value='${paymentMethodId}'/>
                               </#if>
                     <#else>
-                            <h2>${SystemLabelMap.PartyEditContactInfo}</h2>
+                            <h2>${SystemLabelMap.PartyEditContactInfo} yyy</h2>
                             <#--
                             <p class="my-2"><strong>${SystemLabelMap.PartyContactPurposes}</strong></p>
                             <div class="row">
@@ -186,6 +186,7 @@ under the License.
                     </#if>
 
                                 <#if contactMechTypeId = "POSTAL_ADDRESS">
+                                    <input type='hidden' name='contactMechPurposeTypeId' value='SHIPPING_LOCATION'/>
                                   <div class="row">
                                     <div class="col-sm-6">
                                       <label class="my-2">${SystemLabelMap.PartyToName}</label>
@@ -266,6 +267,7 @@ under the License.
                                   </div>
                                   -->
                                 <#elseif contactMechTypeId = "TELECOM_NUMBER">
+                                    <input type='hidden' name='contactMechPurposeTypeId' value='PHONE_MOBILE'/>
                                     <div class="form-group">
                                       <label class="my-2">${SystemLabelMap.PartyPhoneNumber}</label>
                                       <div class="row">
@@ -295,6 +297,7 @@ under the License.
                                       </div>
                                     </div>
                                 <#elseif contactMechTypeId = "EMAIL_ADDRESS">
+                                        <input type='hidden' name='contactMechPurposeTypeId' value='PRIMARY_EMAIL'/>
                                       <div class="row">
                                         <div class="col-sm-6">
                                           <label class="my-2">${SystemLabelMap.PartyEmailAddress}</label >

@@ -44,11 +44,13 @@ under the License.
                                     <a href="#" class="button button-small button-3d button-black m-0 upper js-submit" data-url="<@ofbizUrl>updateCheckoutOptions/editcontactmech?preContactMechTypeId=POSTAL_ADDRESS&contactMechPurposeTypeId=SHIPPING_LOCATION&DONE_PAGE=checkoutOptions</@ofbizUrl>">${SystemLabelMap.PartyAddNewAddress}&nbsp; <i class="bi-journal-plus"></i></a>
                                 </td>
                               </tr>
+                                <#assign validAddressCount = 0 />
                                <#if shippingContactMechList?has_content>
                                  <#list shippingContactMechList as shippingContactMech>
                                    <#assign shippingAddress = shippingContactMech.getRelatedOne("PostalAddress", false)>
                                    <#if shippingAddress.countryGeoId?has_content && shippingAddress.countryGeoId == currentShippingCountry>
                                         <#assign checkThisAddress = (shippingContactMech_index == 0 && !cart.getShippingContactMechId()?has_content) || (cart.getShippingContactMechId()?default("") == shippingAddress.contactMechId)/>
+                                       <#assign validAddressCount += 1 />
                                        <tr>
                                          <td>
                                          <div class="row form-check d-flex">
@@ -72,11 +74,18 @@ under the License.
 
                                          </td>
                                        </tr>
-                                   <#else>
-                                        ${SystemLabelMap.ShippingAddressNotExists}
                                    </#if>
                                  </#list>
                                </#if>
+                                <#if validAddressCount == 0>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="alert alert-info m-0" role="alert">
+                                                ${SystemLabelMap.OrderNoShippingAddressForCountry}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </#if>
                             </table>
                         </div>
                     </div>

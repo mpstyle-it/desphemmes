@@ -270,8 +270,8 @@ under the License.
     </property>
 
     <property key="ModelInfoDescription">
-        <value xml:lang="it">La modella indossa una taglia small</value>
-        <value xml:lang="en">The model is wearing a size small</value>
+        <value xml:lang="it">La modella è alta 1,78 mt e indossa una tg. 40 italiana.</value>
+        <value xml:lang="en">The model is 178 cm tall and wears an Italian size 40.</value>
     </property>
 
     <property key="ProductCare">
