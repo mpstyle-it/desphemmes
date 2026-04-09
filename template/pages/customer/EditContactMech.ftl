@@ -132,61 +132,22 @@ under the License.
                               </#if>
                     <#else>
                             <h2>${SystemLabelMap.PartyEditContactInfo} yyy</h2>
-                            <#--
-                            <p class="my-2"><strong>${SystemLabelMap.PartyContactPurposes}</strong></p>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <#list partyContactMechPurposes! as partyContactMechPurpose>
-                                      <#assign contactMechPurposeType = partyContactMechPurpose.getRelatedOne("ContactMechPurposeType", true) />
-                                          <form name="expirePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}" class="my-2"
-                                                method="post" action="<@ofbizUrl>expirePartyContactMechPurpose</@ofbizUrl>">
-                                            <div class="form-group">
-                                              <label class="my-2">
-                                                <#if contactMechPurposeType??>
-                                                ${contactMechPurposeType.get("description",locale)}
-                                                <#else>
-                                                ${uiLabelMap.PartyPurposeTypeNotFound}: "${partyContactMechPurpose.contactMechPurposeTypeId}"
-                                                </#if>
-                                                (${uiLabelMap.CommonSince}:${partyContactMechPurpose.fromDate.toString()})
-                                                <#if partyContactMechPurpose.thruDate??>(${uiLabelMap.CommonExpires}
-                                                  :${partyContactMechPurpose.thruDate.toString()})</#if>
-                                              </label>
-                                              <input type="hidden" name="contactMechId" value="${contactMechId}"/>
-                                              <input type="hidden" name="contactMechPurposeTypeId"
-                                                     value="${partyContactMechPurpose.contactMechPurposeTypeId}"/>
-                                              <input type="hidden" name="fromDate" value="${partyContactMechPurpose.fromDate}"/>
-                                              <input type="hidden" name="useValues" value="true"/>
-                                              <a href='javascript:document.expirePartyContactMechPurpose_${partyContactMechPurpose.contactMechPurposeTypeId}.submit()'
-                                                 class="btn btn-outline-secondary">${uiLabelMap.CommonDelete}</a>
-                                            </div>
-                                          </form>
-                                    </#list>
-                                    <#if purposeTypes?has_content>
-                                          <form method="post" class="form-inline" action='<@ofbizUrl>createPartyContactMechPurpose</@ofbizUrl>'
-                                                name='newpurposeform'>
-                                              <input type="hidden" name="contactMechId" value="${contactMechId}"/>
-                                              <input type="hidden" name="useValues" value="true"/>
-                                              <select name='contactMechPurposeTypeId' class="custom-select form-control">
-                                                <option>${uiLabelMap.CommonSelect}</option>
-                                                <#list purposeTypes as contactMechPurposeType>
-                                                  <option value='${contactMechPurposeType.contactMechPurposeTypeId}'>
-                                                    ${contactMechPurposeType.get("description",locale)}
-                                                  </option>
-                                                </#list>
-                                              </select>
-                                            <a href='javascript:document.newpurposeform.submit()' class="btn btn-outline-secondary">${uiLabelMap.PartyAddPurpose}</a>
-                                          </form>
-                                    </#if>
-                                </div>
-                            </div>
-                            -->
+
                             <form method="post" action='<@ofbizUrl>${reqName}</@ofbizUrl>' name="editcontactmechform" id="editcontactmechform">
                               <input type="hidden" name="contactMechId" value='${contactMechId}'/>
                               <input type="hidden" name="contactMechTypeId" value='${contactMechTypeId}'/>
+
+                        <#if contactMechTypeId = "POSTAL_ADDRESS">
+                            <input type='hidden' name='contactMechPurposeTypeId' value='SHIPPING_LOCATION'/>
+                        <#elseif contactMechTypeId = "TELECOM_NUMBER">
+                            <input type='hidden' name='contactMechPurposeTypeId' value='PHONE_MOBILE'/>
+                        <#elseif contactMechTypeId = "EMAIL_ADDRESS">
+                            <input type='hidden' name='contactMechPurposeTypeId' value='PRIMARY_EMAIL'/>
+                        </#if>
+
                     </#if>
 
                                 <#if contactMechTypeId = "POSTAL_ADDRESS">
-                                    <input type='hidden' name='contactMechPurposeTypeId' value='SHIPPING_LOCATION'/>
                                   <div class="row">
                                     <div class="col-sm-6">
                                       <label class="my-2">${SystemLabelMap.PartyToName}</label>
@@ -267,7 +228,6 @@ under the License.
                                   </div>
                                   -->
                                 <#elseif contactMechTypeId = "TELECOM_NUMBER">
-                                    <input type='hidden' name='contactMechPurposeTypeId' value='PHONE_MOBILE'/>
                                     <div class="form-group">
                                       <label class="my-2">${SystemLabelMap.PartyPhoneNumber}</label>
                                       <div class="row">
@@ -297,7 +257,6 @@ under the License.
                                       </div>
                                     </div>
                                 <#elseif contactMechTypeId = "EMAIL_ADDRESS">
-                                        <input type='hidden' name='contactMechPurposeTypeId' value='PRIMARY_EMAIL'/>
                                       <div class="row">
                                         <div class="col-sm-6">
                                           <label class="my-2">${SystemLabelMap.PartyEmailAddress}</label >
