@@ -12,7 +12,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/coats023_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Coats & Jackets">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Coats}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Coats}</h2>
             </div>
         </a>
     </div>
@@ -29,7 +29,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/dresses021_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Dresses">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Dresses}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Dresses}</h2>
             </div>
         </a>
     </div>

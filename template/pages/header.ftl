@@ -174,7 +174,6 @@
 
                     <!-- Menu Left -->
                     <ul class="menu-container">
-                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>"><div>${SystemLabelMap.SeeAll}</div></a></li>
                          <li class="menu-item mega-menu mega-menu-small"><a class="menu-link upper" href="#"><div>Shop</div></a>
                             <div class="mega-menu-content mega-menu-style-2">
                                 <div class="container">
@@ -187,13 +186,13 @@
                                                     </ul>
                                                 </#list>
                                             </#list>
+                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>"><div>${SystemLabelMap.SeeAll}</div></a></li>
+                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="FW-SEEALL"/>"><div>${SystemLabelMap.SeeAllWinterFall}</div></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                          </li>
-                        <li class="menu-item"><a class="menu-link upper" href="<@ofbizCatalogAltUrl productCategoryId="FW-SEEALL"/>"><div>${SystemLabelMap.SeeAllWinterFall}</div></a></li>
-
                         <li class="menu-item"><a class="menu-link upper" href="https://www.desphemmes.com" target="_blank"><div>${SystemLabelMap.Brand}</div></a></li>
                     </ul>
 

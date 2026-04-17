@@ -12,7 +12,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/bottoms022_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Bottoms">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Bottoms}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Bottoms}</h2>
             </div>
         </a>
     </div>
@@ -29,7 +29,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/tailoring025_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Tailoring">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Tailoring}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Tailoring}</h2>
             </div>
         </a>
     </div>

@@ -1,3 +1,5 @@
+<div class="row">
+<div class="col-12 p-0">
 <a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>">
     <div class="category-banner">
 
@@ -13,8 +15,10 @@
         </picture>
 
         <div class="banner-caption">
-            <h2 class="banner-title font-sz-xlarge text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.SeeAll}</h2>
+            <h2 class="banner-title font-sz-xlarge text-uppercase text-white">${SystemLabelMap.SeeAll}</h2>
         </div>
 
     </div>
 </a>
+    </div>
+    </div>

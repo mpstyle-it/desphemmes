@@ -12,7 +12,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/top007_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Top">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Tops}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Tops}</h2>
             </div>
         </a>
     </div>
@@ -29,7 +29,7 @@
                 <img src="<@ofbizContentUrl>${assetspath}/images/homepage/knitwear024_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Knitwear">
             </picture>
             <div class="banner-caption">
-                <h2 class="banner-title font-sz-large text-uppercase text-white" data-animate="fadeInUp">${SystemLabelMap.Knitwear}</h2>
+                <h2 class="banner-title font-sz-large text-uppercase text-white">${SystemLabelMap.Knitwear}</h2>
             </div>
         </a>
     </div>

@@ -104,7 +104,7 @@ a.button-login {
 
 .upper {
     /*font-weight: bold;*/
-    text-transform: uppercase;
+    text-transform: uppercase!important;
 }
 
 .product-title, .product-price {
@@ -133,10 +133,38 @@ a.button-login {
     font-weight: 700;
 }
 
-.card{
+.card {
     border: none;
     border-radius: 0;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.category-banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-caption {
+    position: absolute;
+    inset: 0 0 0 1.1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    pointer-events: none;
+}
+
+.category-banner-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
  @media (max-width: 768px) {
@@ -174,6 +202,10 @@ a.button-login {
 
      .productId {
          font-size: 0.8rem;
+     }
+
+     .banner-caption .banner-title {
+         font-size: 1rem!important;
      }
 
  }
