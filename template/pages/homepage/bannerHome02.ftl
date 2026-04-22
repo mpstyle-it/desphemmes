@@ -15,7 +15,7 @@
         </picture>
 
         <div class="banner-caption">
-            <h2 class="banner-title font-sz-xlarge text-uppercase text-white">${SystemLabelMap.SeeAllWinterFall}</h2>
+            <h2 class="banner-title font-sz-xlarge text-uppercase text-white">${SystemLabelMap.SeeAllWinterFall}<br>2025/2026</h2>
         </div>
 
     </div>

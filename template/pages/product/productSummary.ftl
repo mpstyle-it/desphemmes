@@ -79,19 +79,16 @@
                 </div><#-- end product-overlay-variants -->
             </div><#-- end product-image -->
 
-            <button class="mobile-variants-btn" id="mobileVarsel_${product.productId}">Seleziona</button>
-
-            <div class="mobile-modal" id="mobileVarModal_${product.productId}">
-
-                <div class="mobile-modal-backdrop"></div>
-
-                <div class="mobile-modal-content">
-
-                    <button class="mobile-modal-close" id="mobileVarModalCloseBtn_${product.productId}">Chiudi</button>
-
+            <#if quickAddToCartMobile?? && quickAddToCartMobile == "Y">
+                <button class="mobile-variants-btn" id="mobileVarsel_${product.productId}">Seleziona</button>
+                <div class="mobile-modal" id="mobileVarModal_${product.productId}">
+                    <div class="mobile-modal-backdrop"></div>
+                    <div class="mobile-modal-content">
+                        <button class="mobile-modal-close" id="mobileVarModalCloseBtn_${product.productId}">Chiudi</button>
+                    </div>
                 </div>
+            </#if>
 
-            </div>
 
             <div class="product-desc">
                 <div class="product-title col-lg-8">

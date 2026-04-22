@@ -49,6 +49,16 @@
                                     <#assign productName = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(cartLine.getProduct(), "PRODUCT_NAME", locale, dispatcher, "html")! />
                                     <#assign quantity = cartLine.getQuantity() />
 
+                                    <#if cartLine.getProductId()?contains(".")>
+                                        <#assign sizeIndex =  cartLine.getProductId().indexOf(".") />
+                                        <#assign size =  cartLine.getProductId().substring(sizeIndex) />
+                                        <#if size?contains(".")>
+                                            <#assign size = size?keep_after(".") />
+                                        </#if>
+                                    <#else>
+                                        <#assign size = "" />
+                                    </#if>
+
                                     <tr class="cart_item" id="cartItemDisplayRow_${cartLineIndex}">
                                         <td class="cart-product-remove">
                                             <a href="#" class="remove" data-index="${cartLineIndex}" title="Remove this item"><i class="fa-solid fa-trash"></i></a>
@@ -58,6 +68,7 @@
                                         </td>
                                         <td class="cart-product-name">
                                             <a class="font-regular" href="${productUrl}">${productName}</a>
+                                            <p class="font-sz-xsmall">${SystemLabelMap.Size}: ${size}</p>
                                         </td>
                                         <td class="cart-product-price">
                                             <span class="amount"><@ofbizCurrency amount=cartLine.getDisplayPrice() isoCode=shoppingCart.getCurrency()/></span>

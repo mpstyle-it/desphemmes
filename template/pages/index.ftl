@@ -8,45 +8,6 @@
 
 </#macro>
 
-<#macro add_page_head_after_head_tag>
-
-    <style>
-        /*
-         .category-banner {
-             position: relative;
-             width: 100%;
-         }
-
-         .banner-img {
-             width: 100%;
-             height: auto;
-             display: block;
-         }
-
-         .banner-caption {
-             position: absolute;
-             inset: 0 0 0 1.1rem;
-             display: flex;
-             align-items: flex-start;
-             justify-content: flex-start;
-             text-align: left;
-             color: white;
-             pointer-events: none;
-         }
-
-        .category-banner-link {
-            display: block;
-            text-decoration: none;
-            color: inherit;
-        }
-*/
-
-
-    </style>
-
-
-
-</#macro>
 
 <#macro page_body>
 
@@ -56,7 +17,6 @@
     <#include "homepage/categoryRow03.ftl" />
     <#include "homepage/bannerHome02.ftl" />
     <#--<#include "homepage/categoryRow04.ftl" />-->
-
 
 </#macro>
 

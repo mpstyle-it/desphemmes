@@ -11,5 +11,7 @@ import org.apache.ofbiz.entity.util.EntityUtilProperties
 logInfo("Setting up UI configuration for Desp Hemmes E-commerce plugin")
 def MPSTYLEUI_RESOURCE_ID = "mpstyleui"
 def assetspath = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.assetsPath","/dp_it/assets", delegator)
+def quickAddToCartMobile = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.quickAddToCartMobile","N", delegator)
 
 globalContext.assetspath = assetspath
+globalContext.quickAddToCartMobile = quickAddToCartMobile.toUpperCase()

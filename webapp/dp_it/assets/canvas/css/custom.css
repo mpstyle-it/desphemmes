@@ -18,6 +18,10 @@ body, html {
     font-weight: 400;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700!important;
+}
+
 footer, #copyrights {
     background-color: #f4f4f4!important;
     color: #000!important;
@@ -25,6 +29,10 @@ footer, #copyrights {
 
 .logo-h-small {
     height: 50px!important;
+}
+
+.logo-mobile {
+    height: 30px!important;
 }
 
 .font-regular {
@@ -152,13 +160,14 @@ a.button-login {
 
 .banner-caption {
     position: absolute;
-    inset: 0 0 0 1.1rem;
+    inset: 0;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
     pointer-events: none;
+    font-weight: 700;
 }
 
 .category-banner-link {

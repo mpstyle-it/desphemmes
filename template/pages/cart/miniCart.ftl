@@ -29,6 +29,16 @@
 
                     <#assign cartSmallImageUrl = Static["org.apache.ofbiz.product.product.ProductContentWrapper"].getProductContentAsText(cartProduct, "SMALL_IMAGE_URL", locale, dispatcher, "")!"" />
 
+                    <#if cartLine.getProductId()?contains(".")>
+                        <#assign sizeIndex =  cartLine.getProductId().indexOf(".") />
+                        <#assign size =  cartLine.getProductId().substring(sizeIndex) />
+                        <#if size?contains(".")>
+                            <#assign size = size?keep_after(".") />
+                        </#if>
+                    <#else>
+                        <#assign size = "" />
+                    </#if>
+
                     <div class="top-cart-item">
 
                         <div class="top-cart-item-image">
@@ -40,7 +50,10 @@
                         <div class="top-cart-item-desc">
                             <div class="top-cart-item-desc-title font-sz-small">
                                 <a href="<@ofbizCatalogAltUrl productId=cartProduct.productId/>" class="fw-normal">${cartLine.getName(dispatcher)}</a>
+                                <p class="font-sz-xsmall">${SystemLabelMap.Size}: ${size}</p>
                                 <span class="top-cart-item-price d-block"><@ofbizCurrency amount=cartLine.getDisplayItemSubTotal() isoCode=shoppingCart.getCurrency()/></span>
+
+
                             </div>
                         </div>
 
