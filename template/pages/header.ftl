@@ -178,7 +178,7 @@
                             <div class="mega-menu-content mega-menu-style-2">
                                 <div class="container">
                                     <div class="row">
-                                        <ul class="sub-menu-container mega-menu-column col-lg-6">
+                                        <ul class="sub-menu-container mega-menu-column col-6 justify-content-start">
                                             <#list navCategories as cat>
                                                 <#list cat.children as sub>
                                                     <ul class="sub-menu-container" data-sub="${sub}">

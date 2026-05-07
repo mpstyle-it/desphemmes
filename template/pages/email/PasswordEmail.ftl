@@ -31,7 +31,7 @@ under the License.
       <#assign webapp = "dp_it">
     </#if>
 
-    <#assign resetUrl = "https://desphemmes.test.mpstyle.it:8445/" + webapp
+    <#assign resetUrl = "https://shopdesphemmes.com/" + webapp
               + "/control/passwordChange"
               + "?USERNAME=${userLogin.userLoginId!}"
               + "&TOKEN=" + token!

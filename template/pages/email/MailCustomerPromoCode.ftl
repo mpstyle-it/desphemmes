@@ -1055,7 +1055,7 @@
     </style>
 </head>
 
-<#assign serverUrl = "https://desphemmes.test.mpstyle.it:8445"/>
+<#assign serverUrl = "https://shopdesphemmes.com"/>
 <#assign assetspath = "/dp_it/assets"/>
 
 <body>
