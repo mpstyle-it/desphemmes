@@ -27,7 +27,7 @@ under the License.
     <div class="card">
       <div class="card-header">
         <strong>
-        <#if "Y" == maySelectItems?default("N") && "Y" == returnLink?default("N") && "ORDER_COMPLETED" == (orderHeader.statusId)! && "PLACING_CUSTOMER" == roleTypeId!>
+        <#if (enableOrderReturn?? && enableOrderReturn == "Y") && "Y" == maySelectItems?default("N") && "Y" == returnLink?default("N") && "ORDER_COMPLETED" == (orderHeader.statusId)! && "PLACING_CUSTOMER" == roleTypeId!>
           <a href="<@ofbizUrl fullPath="true">makeReturn?orderId=${orderHeader.orderId}</@ofbizUrl>"
               class="button">${SystemLabelMap.OrderRequestReturn}</a>
         </#if>

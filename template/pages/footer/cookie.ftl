@@ -2,9 +2,9 @@
 
 <#macro page_head_title>
 
-<!-- Document Title
-============================================= -->
-<title>Des Phemmes | Sito Uffiicale</title>
+    <!-- Document Title
+    ============================================= -->
+    <title>Des Phemmes | Sito Uffiicale</title>
 
 </#macro>
 
@@ -12,119 +12,208 @@
 
     <!-- Content
          ============================================= -->
-         <section id="content">
-         	<div class="content-wrap">
-         		<div class="container">
-         			<div class="row col-mb-50">
-         				<div class="col-12">
+    <section id="content">
+        <div class="content-wrap">
+            <div class="container">
+                <div class="row col-mb-50">
+                    <div class="col-12">
 
 
-                            <p>I cookies (di seguito “cookie”) sono piccoli files che vengono salvati sul dispositivo dell'utente durante la navigazione sul sito web, hanno lo scopo di raccogliere informazioni sulla navigazione del sito web da parte dell’utente e possono essere ritrasmessi o riutilizzati in occasione di visite successive.</p>
-                            <p>I cookie hanno caratteristiche diverse e sono usati per diverse finalità, sia dal titolare del sito che si sta visitando (c.d. cookie di prima parte), sia da altri siti (c.d. cookie di terze parti) perché nel nostro sito sono incorporati strumenti web forniti da terze parti.</p>
-                            <p>I cookie possono essere memorizzati in modo permanente sul dispositivo oppure avere una durata variabile (c.d. cookie persistenti), altrimenti sono temporanei e vengono eliminati alla chiusura del browser oppure avere una durata limitata (c.d. cookie di sessione). Esistono altre tecnologie come pixel tag, web bug, web storage e altri file e tecnologie simili che possono svolgere le stesse funzioni dei cookie, nella presente Cookie Policy utilizziamo il termine "cookie" anche per tutte queste tecnologie simili.</p>
+                        <p>I cookies (di seguito “cookie”) sono piccoli files che vengono salvati sul dispositivo
+                            dell'utente durante la navigazione sul sito web, hanno lo scopo di raccogliere informazioni
+                            sulla navigazione del sito web da parte dell’utente e possono essere ritrasmessi o
+                            riutilizzati in occasione di visite successive.</p>
+                        <p>I cookie hanno caratteristiche diverse e sono usati per diverse finalità, sia dal titolare
+                            del sito che si sta visitando (c.d. cookie di prima parte), sia da altri siti (c.d. cookie
+                            di terze parti) perché nel nostro sito sono incorporati strumenti web forniti da terze
+                            parti.</p>
+                        <p>I cookie possono essere memorizzati in modo permanente sul dispositivo oppure avere una
+                            durata variabile (c.d. cookie persistenti), altrimenti sono temporanei e vengono eliminati
+                            alla chiusura del browser oppure avere una durata limitata (c.d. cookie di sessione).
+                            Esistono altre tecnologie come pixel tag, web bug, web storage e altri file e tecnologie
+                            simili che possono svolgere le stesse funzioni dei cookie, nella presente Cookie Policy
+                            utilizziamo il termine "cookie" anche per tutte queste tecnologie simili.</p>
+                        <p>Per informazioni dettagliate e aggiornate sui cookies usati nel sito, si invita a leggere la
+                            Cookie Policy completa:...</p>
 
+                        <h5>Gestione dei cookies</h5>
 
-                            <h5>Cookie di sessione</h5>
+                        <p>Al momento dell'accesso al sito è presente un banner che contiene un testo di informativa
+                            breve ed il collegamento a questa informativa estesa.
+                            Il banner permette al visitatore di gestire l'uso dei cookie e di impostare la scelta per i
+                            cookie facoltativi di profilazione/tracciamento, come impostazione predefinita sono
+                            abilitati solo i cookie funzionali/tecnici che sono necessari e non disattivabili senza
+                            perdita di funzionalità del sito.
+                            Il consenso all'uso dei cookie impostati viene registrato con un “cookie tecnico” salvato
+                            nel dispositivo dell’utente.</p>
 
-                            <p>La loro durata corrisponde alla sessione di utilizzo del browser e si cancellano automaticamente alla chiusura di quest’ultimo.</p>
+                        <p>
+                            La gestione dei cookie è anche possibile cambiando le impostazioni del browser attraverso le
+                            seguenti possibili soluzioni, sono esemplificative e ne esistono anche altre:
+                        <ul class="iconlist">
+                            <li><i class="bi-check-lg"></i> <span>modifica delle impostazioni del browser, che consentono o meno la memorizzazione dei cookie e che di norma permettono anche di impostare le regole dei cookie in modo che non vengano accettati quelli di "terze parti". Alcuni consentono anche di bloccare i cookie di alcune terze parti e non di altre, tramite una funzione che permette di indicare da quali domini consentire l’invio di cookie;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>con specifici componenti software aggiunti al browser (c.d. plug-in), che specializzano le funzioni comunemente rese disponibili dai software per la navigazione e che possono essere configurati dall’utente per effettuare una selezione dei cookie sulla base dei domini di provenienza;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>mediante il cosiddetto "do not track", che consente all’utente di segnalare a ciascun sito visitato la sua volontà di essere o meno tracciato nel corso della navigazione. Però questa modalità tecnica non è standardizzata e non vi è certezza che tale funzionalità sia implementata su tutti i domini che depositano cookie sul sito e per i quali, essendo di terze parti, il titolare non controllo;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>È possibile disabilitare i cookie di Google Analytics visitando la pagina web di Google (Google GaOptOut) e scaricando il componente aggiuntivo per il browser utilizzato.
+                                        <br>Nota: scegliendo di bloccare tutti i cookie, la piena funzionalità del sito Web può essere compromessa.
+                                    </span>
+                            </li>
+                        </ul>
+                        </p>
 
-                            <h5>Cookie persistenti</h5>
+                        <h5>Modalità di trattamento e di conservazione</h5>
 
-                            <p>Rimangono memorizzati sul dispositivo di navigazione fino alla data di scadenza prevista, oppure sono cancellati dall’utente prima della scadenza.</p>
+                        <p>I dati saranno trattati con strumenti informatici/elettronici da personale autorizzato ed
+                            istruito dal titolare, oppure anche da soggetti terzi designati responsabili per i
+                            trattamenti di competenza, sempre nel rispetto dei principi di liceità del trattamento e
+                            mediante l'adozione delle adeguate misure di sicurezza per limitare l’accesso ai dati solo
+                            ai soggetti autorizzati. I dati saranno conservati per il tempo richiesto dalle finalità di
+                            trattamento, in subordine ad eventuali tempi obbligatori per legge.</p>
+                        <p>
+                            I dati saranno comunicati esclusivamente a soggetti autorizzati e designati per la gestione
+                            del sito e delle nostre attività relative al sito:
+                        <ul class="iconlist">
+                            <li><i class="bi-check-lg"></i> <span>personale interno che agisce sotto l’autorità del titolare;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>provider di hosting, sviluppatore del sito web, altri fornitori di servizi internet per il sito web professionisti, consulenti o società, per servizi funzionali alla gestione delle nostre attività o per l’amministrazione del sito web;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>per gli acquisti effettuati sul sito, i dati potranno essere trasmessi a trasportatori, corrieri, servizi postali, aziende di spedizioni e logistica, piattaforme di pagamento per il commercio elettronico, che agiscono come titolari autonomi del trattamento;</span>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>I dati degli utenti del sito non sono diffusi e non vengono trasferiti fuori dallo Spazio
+                            Economico Europeo.</p>
+                        <p>I dati dei cookie saranno comunicati esclusivamente a soggetti autorizzati e designati per la
+                            gestione del sito e delle nostre attività relative al sito:
+                        <ul class="iconlist">
+                            <li><i class="bi-check-lg"></i> <span>personale interno che agisce sotto l’autorità del titolare;</span>
+                            </li>
+                            <li><i class="bi-check-lg"></i> <span>sviluppatore del sito web, altri fornitori di servizi internet per il sito web.</span>
+                            </li>
+                        </ul>
+                        </p>
 
-                            <h5>Cookie tecnici o funzionali</h5>
+                        <h5>Trasferimento dei dati extra-UE</h5>
 
-                            <p>I cookie tecnici o funzionali servono per la navigazione e fruizione del sito web, sono usati per assicurare il corretto funzionamento del sito o per gestire determinate funzioni di erogazione del sito in base alle scelte dell’utente, sono necessari e la loro disattivazione può significare la perdita di funzionalità del sito o l’impossibilità di navigarlo correttamente. Non serve il consenso del visitatore per questo genere di cookie.</p>
+                        <p>Alcuni dati dei cookies di terze parti, analitici o di profilazione, depositati dopo il
+                            consenso specifico dell’utente, potranno essere trasferiti fuori dall’UE a provider o
+                            fornitori di servizi web collocati negli USA (Stati Uniti d’America), considerato paese
+                            adeguato ai fini della normativa europea sulla protezione dei dati personali: questi
+                            soggetti terzi forniscono le garanzie di un adeguato livello di protezione rispondente ai
+                            requisiti normativi, con particolare riguardo alle misure di sicurezza adottate ai sensi del
+                            GDPR.</p>
 
-                            <h5>Cookies analitici</h5>
+                        <h5>Esercizio dei diritti dell’interessato</h5>
 
-                            <p>Nel sito usiamo i servizi di terza parte forniti da Google Analytics (analytics.google.com) con anonimizzazione (mascheramento parziale dell’indirizzo IP), in questo modo la terza parte non è in grado di acquisire l’indirizzo IP dell’utente e di incrociarlo con altri dati in suo possesso, quindi non è possibile una profilazione delle preferenze dell’utente.</p>
-                            <p>Usiamo questi cookie per raccogliere e analizzare il traffico e l’utilizzo del sito in modo anonimo: senza identificare direttamente l’utente, permettono di monitorare gli accessi al sito e migliorarne le prestazioni e l’usabilità.</p>
-                            <p>La disattivazione di tali cookie può essere eseguita senza alcuna perdita di funzionalità, per ulteriori informazioni, si rinvia al link https://www.google.it/policies/privacy/partners/ L’utente può anche disabilitare in modo selettivo l’azione di Google Analytics installando sul proprio browser la componente di opt-out fornito da Google, si rinvia al link https://tools.google.com/dlpage/gaoptout Non viene richiesto il consenso al visitatore per questi cookies perché i dati sono raccolti in forma anonima.</p>
+                        <p>Salvo le limitazioni previste dalla stessa normativa, il soggetto interessato potrà in
+                            qualsiasi momento rivolgersi al titolare presso i recapiti qui indicati per esercitare i
+                            diritti garantiti dalla normativa: accesso ai dati personali; rettifica; cancellazione;
+                            limitazione del trattamento; opposizione al trattamento; portabilità dei dati; revoca del
+                            consenso, ove previsto: la revoca del consenso non pregiudica la liceità del trattamento
+                            basata sul consenso conferito prima della revoca; informazioni sul processo automatizzato
+                            relativo alla profilazione.
+                            Per esercitare i propri diritti l’interessato deve rivolgersi al titolare usando i dati di
+                            contatto indicati in questa pagina. Il soggetto interessato può anche proporre reclamo, nei
+                            termini e modi previsti, presso l’Autorità di controllo, per maggiori informazioni si invita
+                            l’Utente a consultare il sito del Garante www.gpdp.it</p>
 
-                            <h5>Cookie di terza parte</h5>
+                        <h5>Diritto di accesso (GDPR, art. 15)</h5>
 
-                            <p>Nel sito utilizziamo servizi di terze parti che utilizzano cookie di tracciamento e profilazione, per i quali si informa il visitatore prima dell’accesso al sito e si richiede il consenso: questi cookie sono registrati sul dispositivo solo se l’utente li accetta in modo esplicito.</p>
-                            <p>I cookies di profilazione monitorano e profilano gli utenti nel corso della navigazione, studiando e memorizzando le loro opzioni e abitudini di navigazione sul sito e sul web in generale, nonché le abitudini di consumo, anche allo scopo di inviare pubblicità di servizi mirati e personalizzati.</p>
-                            <p>Questi cookie di tracciamento sono usati con finalità di marketing, per creare profili relativi all'utente e sulle preferenze dell’utente durante la navigazione del sito e possono incrociare le informazioni raccolte con quelle già in possesso delle terze parti oppure raccolte da altri siti web di terzi.</p>
-                            <p>Per questi cookie i dati raccolti presso l'utente sono trasmessi anche a provider o fornitori di servizi web collocati negli Stati Uniti (USA) quindi al di fuori dall’Unione Europea.</p>
-                            <p>Nel rispetto dei principi e requisiti di artt. 44 e 49 del GDPR per il trasferimento extra-UE, la base giuridica per il trasferimento è il consenso preventivo dell’interessato ai sensi di art. 6 par. 1 lett. a) del GDPR.</p>
+                        <p>L’interessato ha il diritto di ottenere dal titolare del trattamento la conferma che sia o
+                            meno in corso un trattamento di dati personali che lo riguardano e in tal caso, di ottenere
+                            l’accesso ai dati personali e alle seguenti informazioni: <br>
+                            a) le finalità del trattamento;<br>
+                            b) le categorie di dati personali in questione;<br>
+                            c) i destinatari o le categorie di destinatari a cui i dati personali sono stati o saranno
+                            comunicati, in particolare se destinatari di paesi terzi o organizzazioni internazionali e,
+                            in tal caso, l’esistenza di garanzie adeguate;<br>
+                            d) quando possibile, il periodo di conservazione dei dati personali previsto oppure, se non
+                            è possibile, i criteri utilizzati per determinare tale periodo;<br>
+                            e) l’esistenza del diritto dell’interessato di chiedere al titolare del trattamento la
+                            rettifica o la cancellazione dei dati personali o la limitazione del trattamento dei dati
+                            personali che lo riguardano o di opporsi al loro trattamento;<br>
+                            f) il diritto di proporre reclamo a un’autorità di controllo;<br>
+                            g) qualora i dati non siano raccolti presso l’interessato, tutte le informazioni disponibili
+                            sulla loro origine;<br>
+                            h) l’esistenza di un processo decisionale automatizzato, compresa la profilazione, che
+                            produca effetti giuridici che
+                            lo riguardano o che incida in modo analogo significativamente sulla sua persona e, almeno in
+                            tali casi, informazioni significative sulla logica utilizzata, nonché l’importanza e le
+                            conseguenze previste di tale trattamento per l’interessato.
+                        </p>
 
-                            <h5>Link verso altri siti –Social Network Plugin</h5>
+                        <h5>Diritto di rettifica (GDPR, art. 16)</h5>
 
-                            <p>Nelle pagine del sito possono esservi dei link per visitare altri siti web di terze parti, l'uso di tali funzionalità porta l’utente ad interagire con i servizi web offerti dai siti di terze parti e implica lo scambio di informazioni con tali siti, il visitatore viene rediretto sul sito di terza parte uscendo dal nostro sito e, pertanto, la gestione delle informazioni è effettuata dalle terze parti in modo autonomo.</p>
-                            <p>Il sito incorpora anche plugin come i “social buttons” con lo scopo di consentire una facile condivisione dei contenuti del nostro sito sui vostri social network preferiti.</p>
-                            <p>Per salvaguardare la privacy degli utenti tali plugin sono programmati in modo da non impostare alcun cookie all'accesso della pagina, ma solo quando l'utente fa effettivo e volontario uso del plugin, secondo le impostazioni del social network.</p>
-                            <p>Se l'utente naviga il sito mentre è loggato al suo profilo nel social network ha già acconsentito all'uso dei cookie veicolati tramite il social network.</p>
-                            <p>La raccolta e l'uso delle informazioni ottenute dalle terze parti a mezzo del plugin sono regolati dalle rispettive informative privacy dei social network, alle quali si prega di fare riferimento.</p>
+                        <p>L’interessato ha il diritto di ottenere dal titolare del trattamento la rettifica dei dati
+                            personali inesatti che lo riguardano senza ingiustificato ritardo.</p>
 
-                            <h5>Gestione dei cookie</h5>
+                        <h5>Diritto di cancellazione (GDPR, art. 17)</h5>
 
-                            <p>Previo Suo consenso separato e specifico, i dati personali raccolti saranno usati per l’invio tramite e-mail, messaggi SMS o MMS, applicazioni di messaggistica multimediale istantanea e applicazioni su rete mobile o rete dati (cosiddette App) di offerte e promozioni ovvero di comunicazioni aventi contenuto informativo e/o promozionale sui nostri prodotti o servizi.</p>
+                        <p>L’interessato ha il diritto di ottenere dal titolare del trattamento la cancellazione dei
+                            dati personali che lo riguardano senza ingiustificato ritardo e il titolare del trattamento
+                            ha l’obbligo di cancellare senza ingiustificato ritardo i dati personali, se sussiste uno
+                            dei motivi seguenti:<br>
+                            a) i dati personali non sono più necessari rispetto alle finalità per le quali sono stati
+                            raccolti o altrimenti trattati;<br>
+                            b) l’interessato revoca il consenso su cui si basa il trattamento e non sussiste altro
+                            fondamento giuridico per il trattamento;<br>
+                            c) l’interessato si oppone al trattamento, e non sussiste alcun motivo legittimo prevalente
+                            per procedere al trattamento;<br>
+                            d) i dati personali sono stati trattati illecitamente;<br>
+                            e) i dati personali devono essere cancellati per adempiere un obbligo legale previsto dal
+                            diritto dell’Unione Europeo o del diritto lo Stato membro cui è soggetto il titolare del
+                            trattamento;<br>
+                        </p>
 
-                             <ul class="iconlist">
-                                <li><i class="bi-check-lg"></i> <span>modifica delle impostazioni del browser, che consentono o meno la memorizzazione dei cookie e che di norma permettono anche di impostare le regole dei cookie in modo che non vengano accettati quelli di "terze parti". Alcuni consentono anche di bloccare i cookie di alcune terze parti e non di altre, tramite una funzione che permette di indicare da quali domini consentire l’invio di cookie;</span></li>
-                                <li><i class="bi-check-lg"></i> <span>con specifici componenti software aggiunti al browser (c.d. plug-in), che specializzano le funzioni comunemente rese disponibili dai software per la navigazione e che possono essere configurati dall’utente per effettuare una selezione dei cookie sulla base dei domini di provenienza;</span></li>
-                                <li><i class="bi-check-lg"></i> <span>mediante il cosiddetto "do not track", che consente all’utente di segnalare a ciascun sito visitato la sua volontà di essere o meno tracciato nel corso della navigazione. Però questa modalità tecnica non è standardizzata e non vi è certezza che tale funzionalità sia implementata su tutti i domini che depositano cookie sul sito e per i quali, essendo di terze parti, il Titolare non controllo;</span></li>
-                                <li><i class="bi-check-lg"></i> <span>È possibile disabilitare i cookie di Google Analytics visitando la pagina web di Google (Google GaOptOut) e scaricando il componente aggiuntivo per il browser utilizzato.</span></li>
-                             </ul>
+                        <h5>Diritti di limitazione del trattamento (GDPR, art. 18)</h5>
+                        <p>L’interessato ha il diritto di ottenere dal titolare del trattamento la limitazione del
+                            trattamento quando ricorre una delle seguenti ipotesi:<br>
+                            a) l’interessato contesta l’esattezza dei dati personali, per il periodo necessario al
+                            titolare del trattamento per verificare l’esattezza di tali dati personali;<br>
+                            b) il trattamento è illecito e l’interessato si oppone alla cancellazione dei dati personali
+                            e chiede invece che ne sia limitato l’utilizzo;<br>
+                            c) benché il titolare del trattamento non ne abbia più bisogno ai fini del trattamento, i
+                            dati personali sono necessari all’interessato per l’accertamento, l’esercizio o la difesa di
+                            un diritto in sede giudiziaria;<br>
+                            d) l’interessato si è opposto al trattamento, in attesa della verifica in merito
+                            all’eventuale prevalenza dei motivi legittimi del titolare del trattamento rispetto a quelli
+                            dell’interessato.<br>
+                        </p>
 
-                             <p>Nota: scegliendo di bloccare tutti i cookie, la piena funzionalità del sito Web può essere compromessa.</p>
+                        <h5>Diritto alla portabilità dei dati (GDPR, art. 20)</h5>
+                        <p>L’interessato ha il diritto di ricevere in un formato strutturato, di uso comune e leggibile
+                            da dispositivo automatico i dati personali che lo riguardano forniti a un titolare del
+                            trattamento e ha il diritto di trasmettere tali dati a un altro titolare del trattamento
+                            senza impedimenti da parte del titolare del trattamento cui li ha forniti qualora:<br>
+                            a) il trattamento si basi sul consenso o su un contratto; e<br>
+                            b) il trattamento sia effettuato con mezzi automatizzati.
+                        </p>
+                        <p>Nell’esercitare i propri diritti relativamente alla portabilità dei dati, l’interessato ha il
+                            diritto di ottenere la trasmissione diretta dei dati personali da un titolare del
+                            trattamento all’altro, se tecnicamente fattibile.</p>
 
-                            <h5>Modalità di trattamento e di conservazione</h5>
+                        <h5>Diritto di opposizione (GDPR, art. 20)</h5>
+                        <p>L’interessato ha il diritto di opporsi in qualsiasi momento al trattamento dei dati personali
+                            che lo riguardano basato sull’interesse legittimo del titolare, compresa la profilazione.
+                            L’interessato ha il diritto di opporsi in qualsiasi momento al trattamento dei dati
+                            personali che lo riguardano effettuato per finalità di marketing diretto, compresa la
+                            profilazione nella misura in cui sia connessa a tale marketing diretto.</p>
 
-                            <p>I dati sono trattati con strumenti informatici/elettronici da personale autorizzato ed istruito dal Titolare, oppure anche da soggetti terzi designati Responsabili per i trattamenti di competenza, sempre nel rispetto dei principi di liceità del trattamento e mediante l'adozione delle adeguate misure di sicurezza per limitare l’accesso ai dati solo ai soggetti autorizzati. I dati saranno conservati per il tempo richiesto dalle finalità di trattamento, come specificato nelle sezioni precedenti dove per ogni trattamento sono indicati i tempi di conservazione.</p>
+                        <h5>Aggiornamento di queste informazioni</h5>
+                        <p>L’eventuale entrata in vigore di nuove normative di settore, come anche il costante esame e
+                            aggiornamento dei servizi all’utente, potrebbe comportare la necessità di variare le
+                            modalità di trattamento dei dati personali attraverso il sito: è possibile che la nostra
+                            policy subisca modifiche nel tempo e invitiamo, pertanto, il visitatore a consultare
+                            periodicamente questa pagina.</p>
+                    </div>
 
-                            <h5>Comunicazione e trasferimento dei dati</h5>
-
-                            <p>II dati saranno comunicati esclusivamente a soggetti autorizzati e designati per la gestione del sito e delle nostre attività relative al sito:</p>
-
-                            <ul class="iconlist">
-                                <li><i class="bi-check-lg"></i> <span>personale interno che agisce sotto l’autorità del Titolare;</span></li>
-
-                                <li><i class="bi-check-lg"></i> <span>provider di hosting, sviluppatore del sito web, altri fornitori di servizi internet per il sito web professionisti, consulenti o società, per servizi funzionali alla gestione delle nostre attività o per l’amministrazione del sito web;</span></li>
-
-                                <li><i class="bi-check-lg"></i> <span>in caso di acquisti sul sito: trasportatori, corrieri, servizi postali, aziende di spedizioni e logistica, che agiscono come Titolari autonomi del trattamento;</span></li>
-
-                                <li><i class="bi-check-lg"></i> <span>in caso di acquisti sul sito: piattaforme di pagamento per il commercio elettronico, che agiscono come Titolari autonomi del trattamento.</span></li>
-                            </ul>
-
-                            <p>I dati degli utenti del sito non sono diffusi e non vengono trasferiti fuori dallo Spazio Economico Europeo. I dati dei cookie saranno comunicati esclusivamente a soggetti autorizzati e designati per la gestione del sito e delle nostre attività relative al sito:</p>
-
-                            <ul class="iconlist">
-                               <li><i class="bi-check-lg"></i> <span>personale interno che agisce sotto l’autorità del Titolare;</span></li>
-
-                               <li><i class="bi-check-lg"></i> <span>sviluppatore del sito web, altri fornitori di servizi internet per il sito web.</span></li>
-                            </ul>
-
-                            <h5>Trasferimento dei dati extra-UE</h5>
-
-                            <p>Alcuni dati dei cookies di terze parti, depositati dopo il consenso specifico dell’utente, potranno essere trasferiti fuori dall’UE a provider o fornitori di servizi web collocati negli Stati Uniti (USA): questi soggetti terzi forniscono le garanzie di un adeguato livello di protezione rispondente ai requisiti normativi, con particolare riguardo alle misure di sicurezza adottate ai sensi del GDPR. Per alcuni cookie analitici, i dati raccolti presso l'utente sono trasmessi in forma anonimizzata a provider o fornitori di servizi web collocati negli USA ma non identificano l’utente perché sono resi parzialmente anonimi, quindi non si applicano i requisiti del GDPR per il trasferimento extra-UE.</p>
-
-                            <h5>Esercizio dei diritti dell’interessato</h5>
-
-                            <p>Salvo le limitazioni previste dallo stesso Regolamento, il soggetto interessato potrà in qualsiasi momento rivolgersi al Titolare presso i recapiti qui indicati per esercitare i diritti previsti dagli articoli 15-22 del GDPR:</p>
-
-                            <ul class="iconlist">
-                               <li><i class="bi-check-lg"></i> <span>accesso ai dati personali; rettifica; cancellazione; limitazione del trattamento; opposizione al trattamento; portabilità dei dati;</span></li>
-
-                               <li><i class="bi-check-lg"></i> <span>revoca del consenso, ove previsto: la revoca del consenso non pregiudica la liceità del trattamento basata sul consenso conferito prima della revoca;</span></li>
-
-                               <li><i class="bi-check-lg"></i> <span>informazioni sul processo automatizzato relativo alla profilazione.</span></li>
-                            </ul>
-
-                            <p>L’interessato ha anche il diritto di proporre reclamo, nei modi e nei termini previsti, presso il Garante per la protezione dei dati personali: si invita a visitare il sito web www.gpdp.it per maggiori dettagli.</p>
-
-                            <h5>Aggiornamento della Privacy & Cookie Policy</h5>
-
-                            <p>L’eventuale entrata in vigore di nuove normative di settore, come anche il costante esame e aggiornamento dei servizi all’utente, potrebbe comportare la necessità di variare le modalità di trattamento dei dati personali attraverso il sito: è possibile che la nostra policy subisca modifiche nel tempo e invitiamo, pertanto, il visitatore a consultare periodicamente questa pagina.</p>
-
-         				</div>
-
-         			</div>
-         		</div>
-         	</div>
-         </section>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </#macro>
 

@@ -12,6 +12,8 @@ logInfo("Setting up UI configuration for Desp Hemmes E-commerce plugin")
 def MPSTYLEUI_RESOURCE_ID = "mpstyleui"
 def assetspath = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.assetsPath","/dp_it/assets", delegator)
 def quickAddToCartMobile = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.quickAddToCartMobile","N", delegator)
+def enableOrderReturn = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.enableOrderReturn","N", delegator)
 
 globalContext.assetspath = assetspath
 globalContext.quickAddToCartMobile = quickAddToCartMobile.toUpperCase()
+globalContext.enableOrderReturn = enableOrderReturn.toUpperCase()
