@@ -114,13 +114,13 @@ under the License.
     </property>
 
     <property key="SeeAll">
-        <value xml:lang="it">SHOP SS26</value>
-        <value xml:lang="en">SHOP SS26</value>
+        <value xml:lang="it">SPRING SUMMER 2026</value>
+        <value xml:lang="en">SPRING SUMMER 2026</value>
     </property>
 
     <property key="SeeAllWinterFall">
-        <value xml:lang="it">FALL WINTER</value>
-        <value xml:lang="en">FALL WINTER</value>
+        <value xml:lang="it">FALL WINTER 2025</value>
+        <value xml:lang="en">FALL WINTER 2025</value>
     </property>
 
     <property key="Fitness">
