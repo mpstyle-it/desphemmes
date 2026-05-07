@@ -355,18 +355,18 @@ under the License.
     </property>
 
     <property key="ShippingReturnsOneDescription">
-        <value xml:lang="it">Spedizione gratuita per ordini superiori a 150€ in Italia ed Europa - Diritto di reso entro 15 giorni lavorativi.</value>
-        <value xml:lang="en">Free shipping on orders over €150 in Italy and Europe - 15-day return policy.</value>
+        <value xml:lang="it">Spedizione gratuita per ordini superiori a 500€ in Italia ed Europa - Diritto di reso entro 14 giorni lavorativi.</value>
+        <value xml:lang="en">Free shipping on orders over €500 in Italy and Europe - 14-day return policy.</value>
     </property>
 
     <property key="ShippingReturnsTwoDescription">
-        <value xml:lang="it">Italia: Spedizione 5€. Consegna stimata in 5 giorni lavorativi (7 giorni lavorativi per isole e zone remote).</value>
-        <value xml:lang="en">Italy: Shipping €5. Estimated delivery time: 5 business days (7 business days for islands and remote areas).</value>
+        <value xml:lang="it">Italia: Spedizione 10€. Consegna stimata in 5 giorni lavorativi (7 giorni lavorativi per isole e zone remote).</value>
+        <value xml:lang="en">Italy: Shipping €10. Estimated delivery time: 5 business days (7 business days for islands and remote areas).</value>
     </property>
 
     <property key="ShippingReturnsThreeDescription">
-        <value xml:lang="it">Europa (22 Paesi eurozona): Spedizione 9€. Consegna stimata in 5 giorni lavorativi.</value>
-        <value xml:lang="en">Europe (22 Eurozone countries): Shipping €9. Estimated delivery time: 5 business days.</value>
+        <value xml:lang="it">Europa (22 Paesi eurozona): Spedizione 20€. Consegna stimata in 5 giorni lavorativi.</value>
+        <value xml:lang="en">Europe (22 Eurozone countries): Shipping €20. Estimated delivery time: 5 business days.</value>
     </property>
 
     <property key="AlsoBought">
