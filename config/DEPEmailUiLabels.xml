@@ -169,8 +169,8 @@
 </property>
 
  <property key="ShippingConfirmationTitleMsg">
- 	<value xml:lang="it">IL TUO ORDINE E' STATO PRESO IN CARICO!</value>
-   <value xml:lang="en">YOUR ORDER IS BEING PROCESSED!</value>
+ 	<value xml:lang="it">IL TUO ORDINE E' STATO PRESO IN CARICO</value>
+   <value xml:lang="en">YOUR ORDER IS BEING PROCESSED</value>
  </property>
  
  <property key="ShippingConfirmationOrderNumMsg">
