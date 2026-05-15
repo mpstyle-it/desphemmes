@@ -1205,7 +1205,7 @@
 
                                                             <td class="mcnTextContent" style="text-align: center; padding: 0px 18px 9px; font-family: &quot;Montserrat&quot;, Arial, sans-serif; font-size: 12px; " valign="top">
 
-                                                                <h1 style="text-align: center;">${emailLabelMap.OrderConfirmationThankyou}<br>DESPHEMMES.IT!</h1> <#-- @giulio LABEL -->
+                                                                <h1 style="text-align: center;">${emailLabelMap.OrderConfirmationThankyou}<br>SHOPDESPHEMMES.COM!</h1> <#-- @giulio LABEL -->
 
                                                                 <p style="text-align: center">
                                                                     ${emailLabelMap.OrderConfirmationOrderReceived} <strong>${orderHeader.orderId?if_exists}</strong> ${emailLabelMap.OrderConfirmationOrderOf} <strong>${orderDate?if_exists}</strong>
