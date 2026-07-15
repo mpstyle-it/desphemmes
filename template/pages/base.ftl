@@ -77,6 +77,8 @@
 
 	    <body class="stretched side-panel-left">
 
+	    <#include "script/tagManagerNoScript.ftl" />
+
         <#assign session = request.getSession()?if_exists>
 
         <!-- Document Wrapper
@@ -123,6 +125,12 @@
 
 		<head>
 
+            <#include "script/gtag.ftl" />
+            <#include "script/tagManager.ftl" />
+            <#--<#include "script/facebookPixel.ftl" />-->
+            <#--<#include "script/hubspot.ftl" />-->
+            <#--<#include "script/iubenda.ftl" />-->
+            <#include "script/clarity.ftl" />
 			<#include "head_meta.ftl" />
 			<#include "stylesheet.ftl" />
 			<@page_head_title/>
