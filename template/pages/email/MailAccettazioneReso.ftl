@@ -1358,6 +1358,7 @@
                             </td>
                         </tr>
                         <!-- @giulio ################### START FOOTER ################### -->
+                        <#--
                         <tr>
                             <td valign="top" id="templateFooter">
                                 <table class="mcnDividerBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
@@ -1506,8 +1507,9 @@
                                     </tbody>
                                 </table>
                             </td>
-                            <!-- @giulio ################## END FOOTER ################## -->
                         </tr>
+                        -->
+                        <!-- @giulio ################## END FOOTER ################## -->
                     </table>
                     <!-- // END TEMPLATE -->
                 </td>

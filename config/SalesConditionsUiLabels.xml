@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<!-- Keep only English language here because of OFBIZ-13095 -->
+
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+
+    <property key="SalesTermsTitle">
+        <value xml:lang="it">Condizioni di vendita</value>
+        <value xml:lang="en">Sales terms</value>
+    </property>
+
+    <property key="SupplyAndSale">
+        <value xml:lang="it">L'offerta e la vendita dei prodotti di abbigliamento e accessori sul sito web
+            www.shopdesphemmes.com sono regolate dalle seguenti Condizioni Generali di Vendita.</value>
+        <value xml:lang="en">The supply and sale of clothing and accessories on the www.shopdesphemmes.com website are governed by the following General Conditions of Sale.</value>
+    </property>
+
+    <property key="SupplyAndSaleOne">
+        <value xml:lang="it">I prodotti acquistati sul sito web www.shopdesphemmes.com sono prodotti e distribuiti da
+            Olmar and Mirta S.p.A., con sede legale in Quistello (MN), Via Cocapana, 9, iscritta al
+            Registro delle Imprese di Mantova n. 198510, P. IVA 01817070202, Capitale Sociale Euro
+            580.000,00 i.v. (di seguito anche “Olmar” il "Venditore" o "noi").</value>
+        <value xml:lang="en">The goods purchased on the www.shopdesphemmes.com website are produced and sold by Olmar and Mirta S.p.A.  with registered office in Quistello (MN), Via Cocapana, 9, registered with the Companies' Register of Mantova, no. 198510, VAT Reg. No. 01817070202, Share Capital 580.000,00 EUR fully paid up. (hereinafter "Olmar" or the "Vendor" or "we").</value>
+    </property>
+
+    <property key="Conclusion">
+        <value xml:lang="it">CONCLUSIONE DEL CONTRATTO DI VENDITA</value>
+        <value xml:lang="en">CONCLUSION OF THE SALES CONTRACT</value>
+    </property>
+
+    <property key="GeneralConditions">
+        <value xml:lang="it">Le presenti condizioni generali di vendita sono parte integrante
+            ed essenziale del contratto di vendita con il cliente. L'invio telematico dell'ordine da
+            parte del cliente implica totale conoscenza delle presenti Condizioni Generali di
+            Vendita e la loro integrale accettazione. Qualora il cliente non sia d'accordo con uno o
+            più termini contenuti nelle presenti Condizioni Generali di Vendita è pregato di
+            astenersi dall'effettuare acquisti su www.shopdesphemmes.com (il "Sito").</value>
+        <value xml:lang="en">These general conditions of sale are an integral and essential part of the sales contract concluded with the customer. The order sent via the web by the customer implies the full knowledge of these General Conditions of Sale as well as their full acceptance. If the customer does not agree with one or more terms of these General Conditions of Sale, he/she shall abstain from making purchases on www.shopdesphemmes.com (the "Website").</value>
+    </property>
+
+    <property key="ProceedPurchase">
+        <value xml:lang="it">Per procedere all'acquisto di uno o più prodotti sul Sito, il
+            cliente dovrà effettuare preventivamente la registrazione sul Sito, fornendo a Olmar, in
+            ottemperanza alle applicabili disposizioni in materia di protezione dei dati personali,
+            tutti i dati necessari per consentire a quest'ultima di dare esecuzione agli ordini
+            inoltrati.</value>
+        <value xml:lang="en">To proceed with the purchase of one or more products on the Website, the customer shall first of all register on the Website, in compliance with the applicable provisions concerning the protection of personal data, providing Olmar with all the data required to allow the latter to process the orders received.</value>
+    </property>
+
+    <property key="ConcludePurchase">
+        <value xml:lang="it">Per concludere il proprio contratto di acquisto sul Sito, il
+            cliente dovrà trasmettere a Olmar il proprio ordine seguendo la procedura richiamata sul
+            Sito. L'invio telematico dell'ordine fa sorgere l'obbligo in capo al cliente di
+            corrispondere il prezzo ivi indicato.</value>
+        <value xml:lang="en">To conclude the purchase contract on the Website, the customer shall send Olmar his/her order in compliance with the procedure referred to on the Website. By sending the order via the web, the customer undertakes to pay the price indicated therein.</value>
+    </property>
+
+    <property key="CustomerPlacesOrder">
+        <value xml:lang="it">Quando il cliente effettua un ordine riceverà un'email da parte di Olmar che contiene la conferma del ricevimento dell'ordine e il riepilogo del medesimo: questa email non costituirà tuttavia accettazione automatica dell'ordine stesso.</value>
+        <value xml:lang="en">When the customer places an order, he/she will receive an email from Olmar containing the order confirmation and a summary of the order: the email shall in any case not constitute the automatic acceptance of the order.</value>
+    </property>
+
+    <property key="OlmarReserves">
+        <value xml:lang="it">La società Olmar si riserva il diritto di rifiutare gli ordini
+            dei clienti con i quali sia in corso una controversia relativa al pagamento di un ordine
+            precedente.</value>
+        <value xml:lang="en">Olmar reserves the right to refuse orders from customers with which there is an outstanding dispute about payment for a previous order.</value>
+    </property>
+
+    <property key="SalesPrices">
+        <value xml:lang="it">PREZZI DI VENDITA</value>
+        <value xml:lang="en">SALES PRICES</value>
+    </property>
+
+    <property key="PricesProducts">
+        <value xml:lang="it">Tutti i prezzi di vendita dei prodotti esposti ed indicati all'interno del Sito sono comprensivi di IVA e di ogni altra imposta eventualmente applicabile in relazione alla vendita.</value>
+        <value xml:lang="en">All the prices of the products displayed and indicated on the Website are inclusive of VAT and all other applicable sales taxes.</value>
+    </property>
+
+    <property key="Foreseen">
+        <value xml:lang="it">Il costo della spedizione e trasporto, se previsto, sarà chiaramente indicato e visualizzato prima del perfezionamento dell'ordine.</value>
+        <value xml:lang="en">Where foreseen, the cost of shipping and transport will be clearly indicated and displayed prior to completing the order.</value>
+    </property>
+
+    <property key="PricesUpdated">
+        <value xml:lang="it">I prezzi dei prodotti potrebbero essere soggetti ad aggiornamenti. Il cliente è tenuto ad accertare il prezzo finale di vendita prima di inoltrare il relativo ordine. Il palese errore materiale riportato nel prezzo presente sul Sito rispetto al prezzo comunemente noto del prodotto prescelto, comporta la facoltà per il venditore di non confermare la spedizione e procedere con un rimborso immediato del valore dell'acquisto versato dal cliente senza che quest'ultimo possa opporre eccezioni in merito.</value>
+        <value xml:lang="en">The prices of the products may be updated. The customer undertakes to ascertain the final sales price prior to submitting the order. For any obvious material errors concerning the prices published on the Website compared to the commonly known price of the chosen product, Olmar shall have the right to not confirm the shipment and to proceed to immediately refund the amount paid by the customer without the customer raising any objections thereto.</value>
+    </property>
+
+    <property key="MethodsDelivery">
+        <value xml:lang="it">MODALITÁ DI CONSEGNA</value>
+        <value xml:lang="en">METHODS OF DELIVERY</value>
+    </property>
+
+    <property key="Vendor">
+        <value xml:lang="it">Il venditore farà il possibile per evadere gli ordini trasmessi entro 5 giorni a decorrere dal giorno successivo a quello dell’accettazione dell'ordine.</value>
+        <value xml:lang="en">The vendor will do everything in its power to process the orders within 5 days from the day following that on which the vendor accepted the order.</value>
+    </property>
+
+    <property key="CustomerShall">
+        <value xml:lang="it">Il cliente è tenuto a verificare, all'atto del ricevimento, la conformità del prodotto a lui consegnato con l'ordine effettuato; solo dopo tale verifica, e salvo ovviamente il diritto di recesso previsto al successivo punto 7, il cliente dovrà sottoscrivere i documenti di ricevimento. Compilando la scheda anagrafica nella procedura di registrazione necessaria ad attivare nei suoi confronti l'iter per l'esecuzione del presente contratto e le relative ulteriori comunicazioni, il cliente autorizza Olmar a comunicare i dati anagrafici (residenza, recapito telefonico) ai corrieri e/o spedizionieri di fiducia utilizzati per la consegna dei beni acquistati in modo da permettere le procedure necessarie al loro recapito.</value>
+        <value xml:lang="en">The customer shall, on receipt, check the conformity of the goods delivered with the order placed; only after having checked the goods, and without prejudice to the right of withdrawal laid down in point 7 below, the customer shall sign the delivery receipt. In completing the personal detail sheet in the registration procedures, required for the execution of this contract and all relative correspondence, the customer authorizes Olmar to notify his/her personal data (address, phone number) to the couriers and/or shipping companies used to deliver the purchased goods, in order to allow their delivery.</value>
+    </property>
+
+    <property key="PaymentMethod">
+        <value xml:lang="it">MODALITÁ DI PAGAMENTO</value>
+        <value xml:lang="en">PAYMENT METHODS</value>
+    </property>
+
+    <property key="PayThePrice">
+        <value xml:lang="it">Per il pagamento del prezzo dei prodotti e delle relative spese di spedizione e consegna, se previste, il cliente potrà seguire una delle modalità indicate nel modulo d'ordine. In nessun caso saranno addebitati costi ulteriori in relazione allo strumento di pagamento prescelto dal cliente.</value>
+        <value xml:lang="en">To pay the price of the goods and relative shipping and delivery charges, where foreseen, the customer may use one of the methods indicated in the order form. Under no circumstances will the customer be charged additional costs for the chosen method of payment.</value>
+    </property>
+
+    <property key="EventPayment">
+        <value xml:lang="it"> In caso di pagamento mediante carta di credito, la procedura di pagamento si svolgerà tramite connessione protetta collegata direttamente all'istituto bancario titolare e gestore del servizio di pagamento on line, a cui Olmar non può accedere. In particolare, le informazioni finanziarie (ad esempio, il numero della carta di credito/debito o la data della sua scadenza) saranno inoltrate, tramite protocollo crittografato, all’istituto bancario che fornisce i relativi servizi di pagamento elettronico a distanza, senza che terzi possano, in alcun modo, avervi accesso. Tali informazioni, inoltre, non saranno mai utilizzate e/o archiviate in alcun formato (incluso quello elettronico) da Olmar.
+            L'importo dell'ordine sarà addebitato il giorno successivo all'inserimento dell'ordine salvo, ovviamente, il diritto del cliente di vedersi riaccreditato l'importo in qualsiasi caso di inadempimento da parte del Venditore o mancata esecuzione del contratto per qualsiasi ragione.</value>
+        <value xml:lang="en">In the event of payment by credit card, the payment procedure takes place via a protected connection directly to the bank and the on-line payment service, to which Olmar has no access. In particular, the financial information (such as, for example, the credit/debit card number or its expiry date) will be submitted, using a cyphered protocol, to the bank that supply the relative remote electronic payment services, without third parties being able to access them in any way. Furthermore, this information will never be used by Olmar. The amount of the order will be charged at the time of the bank transaction, clearly without prejudice to the customer's right to be refunded the amount in the event of breach by the Vendor or non-performance of the contract for any reason whatsoever.</value>
+    </property>
+
+    <property key="CustomerSolely">
+        <value xml:lang="it">Il cliente è l'unico responsabile dei dati immessi pertanto egli garantisce di utilizzare solo carte di credito di cui ha la legittima disponibilità.</value>
+        <value xml:lang="en">The customer is solely responsible for all data provided, and guarantees the use of credit cards of which only he/she is an authorized user.</value>
+    </property>
+
+    <property key="CustomerCreditCard">
+        <value xml:lang="it">Se il cliente possiede una carta di credito attiva sul conto Paypal il sistema potrebbe permettere di salvare un codice di riconoscimento per non inserire nuovamente le credenziali nei prossimi pagamenti. In questo caso, i dati forniti verranno raccolti da Olmar in maniera crittografata e trasmessi a PayPal.</value>
+        <value xml:lang="en">If the customer has a credit card with PayPal activation, he/she could save an identification code here, which will avoid having to enter the details for future payments. In this case, the data provided will be collected by Olmar in encrypted form and 0transmitted to PayPal.</value>
+    </property>
+
+    <property key="Responsibility">
+        <value xml:lang="it">RESPONSABILITÁ</value>
+        <value xml:lang="en">RESPONSIBILITY</value>
+    </property>
+
+    <property key="VendorLiable">
+        <value xml:lang="it"> Il venditore non assume alcuna responsabilità per i disservizi imputabili a causa di forza maggiore quali, a titolo esemplificativo, incidenti, esplosioni, incendi, scioperi e/o serrate, terremoti, alluvioni ed altri similari eventi che impedissero, in tutto o in parte, di dare esecuzione al contratto nei tempi concordati.</value>
+        <value xml:lang="en">The vendor shall not be liable for any disservice caused by force majeure, including but not limited to accidents, explosions, fires, strikes and/or lockouts, earthquakes, flooding or similar events which wholly or partly impede the performance of the contract within the agreed time.</value>
+    </property>
+
+    <property key="VendorLiableParty">
+        <value xml:lang="it">Il venditore non sarà responsabile nei confronti di alcuna parte o di terzi in merito a danni, perdite e costi subiti a seguito della mancata esecuzione del contratto per le cause sopra citate, avendo il cliente diritto soltanto alla restituzione del prezzo corrisposto.</value>
+        <value xml:lang="en">The vendor shall not be liable to any party or third parties concerning damage, losses or costs incurred due to the non-performance of the contract for the above-listed reasons, and the customer shall have the right to receive only the refund of the price paid.</value>
+    </property>
+
+    <property key="Equally">
+        <value xml:lang="it">Parimenti, il venditore non è responsabile dell'eventuale uso fraudolento ed illecito che possa essere fatto da parte di terzi, di carte di credito ed altri mezzi di pagamento, all'atto del pagamento dei prodotti acquistati. Il venditore infatti, in nessun momento della procedura d'acquisto è in grado di conoscere il numero di carta di credito del cliente il quale, aprendosi una connessione protetta, viene trasmesso direttamente al gestore del servizio bancario.</value>
+        <value xml:lang="en">Equally, the vendor shall not be liable for the fraudulent or unlawful use by third parties of credit cards, checks or other means of payment used to pay for the purchased products. The vendor does not have access to the customer's credit card number at any time in the purchasing procedure, as the number is transmitted directly to the manager of the banking services.</value>
+    </property>
+
+    <property key="Essential">
+        <value xml:lang="it">Le caratteristiche essenziali dei prodotti sono presentate sul Sito all'interno di ciascuna scheda prodotto. Le immagini ed i colori dei prodotti offerti in vendita potrebbero tuttavia non essere corrispondenti a quelli reali per effetto del browser Internet e del monitor utilizzato.</value>
+        <value xml:lang="en">The essential characteristics of the products are presented on the Website in each product data sheet. The images and colors of the products on sale may however vary, due to the effect of the Internet browser and/or monitor used.</value>
+    </property>
+
+    <property key="Obligations">
+        <value xml:lang="it">OBBLIGHI DEL CLIENTE</value>
+        <value xml:lang="en">OBLIGATIONS OF THE CUSTOMER</value>
+    </property>
+
+    <property key="Strictly">
+        <value xml:lang="it">È fatto severo divieto a persone minorenni di concludere un ordine sul Sito.</value>
+        <value xml:lang="en">It is strictly forbidden for minors to place orders on the Website.</value>
+    </property>
+
+    <property key="DataEntered">
+        <value xml:lang="it">I dati inseriti in fase di acquisto devono essere esclusivamente i propri reali dati personali e non di terze persone, oppure di fantasia. Olmar si riserva di perseguire legalmente ogni violazione ed abuso, nell'interesse e per la tutela dei consumatori tutti.</value>
+        <value xml:lang="en">The data entered when purchasing must exclusively be the user's actual personal data and not that of third parties, or invented data. Olmar reserves the right to prosecute all breaches and abuse, in the interests of and to protect all consumers.</value>
+    </property>
+
+    <property key="CustomerHold">
+        <value xml:lang="it">Il cliente manleva il venditore da ogni responsabilità derivante dall'emissione di documenti fiscali errati a causa di errori relativi ai dati forniti dal cliente, essendone egli stesso unico responsabile del corretto inserimento.</value>
+        <value xml:lang="en">The customer shall hold the vendor harmless of all liability deriving from the issue of incorrect tax documents due to errors in the data provided by the customer, who shall remain the only party responsible for the correct input of data.</value>
+    </property>
+
+    <property key="RightRefund">
+        <value xml:lang="it">DIRITTO DI RECESSO E RIMBORSI</value>
+        <value xml:lang="en">RIGHT OF WITHDRAWAL OR REFUND</value>
+    </property>
+
+    <property key="CustomerExercise">
+        <value xml:lang="it">Il cliente può esercitare il diritto di recesso e restituire il prodotto ricevuto, senza alcuna penalità e senza specificarne il motivo, nel rispetto dei termini e delle modalità qui di seguito riportate.</value>
+        <value xml:lang="en">The customer may exercise the right of withdrawal and return the goods received, without any penalties and without having to specify the reason, in compliance with the terms and methods indicated below.</value>
+    </property>
+
+    <property key="CustomerReturn">
+        <value xml:lang="it">Il cliente potrà effettuare la richiesta di reso inoltrando a customercare@shopdesphemmes.it dichiarazione esplicita della sua decisione di recedere dal contratto - entro quattordici (14) giorni dal ricevimento dei prodotti.</value>
+        <value xml:lang="en">The customer may request to return goods by submitting to customercare@shopdesphemmes.it an explicit declaration of his/her decision to withdraw from the contract - within fourteen (14) days from the date of receipt of the goods.</value>
+    </property>
+
+    <property key="ReturnedIntact">
+        <value xml:lang="it">I prodotti dovranno essere restituiti integri, non lavati, non danneggiati e provvisti dei cartellini indicanti il codice a barre e di ogni eventuale altro sigillo che faccia parte dei prodotti; i prodotti che vengano restituiti incompleti, rovinati, danneggiati, deteriorati o sporchi non saranno rimborsati.</value>
+        <value xml:lang="en">Goods must be returned intact, unwashed, undamaged and bearing their bar-code labels and any other seals that are part of them; it is not possible to reimburse customers for goods that are returned incomplete, ruined, damaged, showing signs of wear or dirty.</value>
+    </property>
+
+    <property key="GoodsCustomer">
+        <value xml:lang="it">I prodotti che si intende rendere devono essere consegnati allo spedizioniere entro quattordici (14) giorni, che decorrono da quando il cliente ha comunicato al Venditore la propria decisione di recedere dal contratto.</value>
+        <value xml:lang="en">The goods the customer wishes to return must be delivered to the shipping agent within fourteen (14) days, starting from the date on which the customer notifies the Vendor of his/her decision to withdraw from the contract.</value>
+    </property>
+
+    <property key="CostReturning">
+        <value xml:lang="it">Le spese di restituzione dei Prodotti saranno a carico della società Olmar qualora la causa sia imputabile a errore del venditore. In tutti gli altri casi e nel caso il cliente decida invece di utilizzare, per la restituzione dei prodotti, uno spedizioniere diverso, saranno a suo carico le spese di spedizione, ivi compresa la responsabilità in caso di smarrimento o danneggiamento dei prodotti.</value>
+        <value xml:lang="en">The cost of returning the goods shall be borne by Olmar on condition that the  cause is attributable to the seller's error. In all other cases and if on the other hand the customer decides to return the goods using a different shipping agent, he/she shall bear the costs of shipment, including any liability in the event of loss or damage to the goods.</value>
+    </property>
+
+    <property key="ReturnGoods">
+        <value xml:lang="it">Dopo la restituzione dei prodotti, il Venditore provvede ai necessari accertamenti relativi alla conformità degli stessi alle condizioni ed i termini indicati nel presente paragrafo.</value>
+        <value xml:lang="en">On return of the goods, the Vendor shall check their conformity with the terms and conditions laid down in this paragraph.</value>
+    </property>
+
+    <property key="RightWithdrawal">
+        <value xml:lang="it">Se il diritto di recesso è esercitato seguendo le modalità ed i termini indicati in questo paragrafo, Olmar provvederà a rimborsare al cliente le eventuali somme già incassate per l'acquisto dei prodotti.</value>
+        <value xml:lang="en">If the right of withdrawal is exercised in the methods and terms indicated in this paragraph, Olmar shall refund the customer any amounts received for the purchase of the goods.</value>
+    </property>
+
+    <property key="Seller">
+        <value xml:lang="it">Il Venditore generalmente esegue correttamente il rimborso utilizzando lo stesso mezzo di pagamento adoperato dal cliente per l'acquisto dei prodotti restituiti, anche nel caso in cui sia stata utilizzata una carta di credito virtuale e/o usa e getta. Il Venditore, per motivi legali, non potrà in alcun modo effettuare un rimborso su una carta di credito diversa da quella utilizzata per l’acquisto, ad eccezione del caso in cui la carta di credito stessa sia scaduta nel frattempo: in questo caso il cliente potrà inviare un'email a customercare@shopdesphemmes.it per concordare il mezzo di rimborso più appropriato.</value>
+        <value xml:lang="en">The Seller generally processes the refund correctly using the same payment method used by the customer to purchase the returned products, including a virtual and/or disposable credit card. For legal reasons, the Seller cannot credit the amount of a refund to a credit card different from that used for the purchase, unless the credit card in question has expired in the meantime: in this case the customer should send an email to customercare@shopdesphemmes.it to arrange the most appropriate refund method.</value>
+    </property>
+
+    <property key="VendorArrange">
+        <value xml:lang="it">Il rimborso è attivato dal Venditore entro quattordici (14) giorni dalla data in cui il Venditore è venuto a conoscenza dell'esercizio del diritto di recesso, previa verifica della corretta esecuzione del medesimo e verifica dei prodotti restituiti.</value>
+        <value xml:lang="en">The Vendor shall arrange for the refund within fourteen (14) days from the date on which the Vendor was informed of the exercise of the right of withdrawal, having checked the conformity of the withdrawal procedure and the returned goods.</value>
+    </property>
+
+    <property key="Applicable">
+        <value xml:lang="it">LEGGE APPLICABILE E FORO COMPETENTE</value>
+        <value xml:lang="en">APPLICABLE LAW AND JURISDICTION</value>
+    </property>
+
+    <property key="DisputesOver">
+        <value xml:lang="it">Ogni controversia relativa all' applicazione, esecuzione, interpretazione e violazione dei contratti d'acquisto stipulati tramite il sito web www.fisico.it è sottoposta alla legge italiana; le presenti condizioni generali si riportano, per quanto non espressamente ivi previsto, alle norme previste dal Codice Civile, nonché al d.lgs. 205/06 ("Codice del Consumo").</value>
+        <value xml:lang="en">All disputes over the application, performance, interpretation or breach of the purchase contracts concluded on the website www.fisico.it are governed by Italian law; where not explicitly laid down therein, these general conditions shall refer to the provisions of the Italian Civil Code and Italian Legislative Decree (D.Lgs.) 205/06 ("Consumer Code"). </value>
+    </property>
+
+    <property key="DisputesBetween">
+        <value xml:lang="it">Per qualsiasi controversia tra le parti in merito al presente contratto sarà competente il Foro nel cui circondario ha il proprio domicilio il consumatore; per tutte le altre controversie sarà di esclusiva competenza il Tribunale di Mantova.</value>
+        <value xml:lang="en">Any disputes between the parties concerning this contract shall be referred to the courts in the place of domicile of the consumer; all other disputes shall be referred to the exclusive jurisdiction of the courts of Mantova.</value>
+    </property>
+
+    <property key="DisputesSeller">
+        <value xml:lang="it">Nel caso di controversie tra il Venditore e il cliente nascenti dalle Condizioni Generali di Vendita, si informa che la Commissione europea fornisce una piattaforma per la risoluzione alternativa extra-giudiziale delle controversie, accessibile sul sito http://ec.europa.eu/odr.</value>
+        <value xml:lang="en">In case of disputes between the Seller and the customer arising from the General Terms and Conditions of Sale, please note that the European Commission provides a platform for the alternative out-of-court settlement of the same, which can be accessed on the website http://ec.europa.eu/odr.</value>
+    </property>
+
+    <property key="Amendments">
+        <value xml:lang="it">MODIFICHE E AGGIORNAMENTI</value>
+        <value xml:lang="en">AMENDMENTS AND UPDATES</value>
+    </property>
+
+    <property key="OlmarReserves">
+        <value xml:lang="it">Olmar si riserva il diritto di modificare il Sito, le politiche e le presenti Condizioni Generali di Vendita in qualsiasi momento per offrire nuovi prodotti o servizi, ovvero per conformarsi a disposizioni di legge o regolamentari. Il cliente che accede al Sito e inoltra un ordine aderirà alle politiche e ai termini delle Condizioni Generali di Vendita di volta in volta vigenti nel momento in cui l'ordine sarà effettuato, salvo che eventuali modifiche non abbiano efficacia retroattiva in forza della legge applicabile (nel qual caso, si potranno applicare anche agli ordini che il cliente ha effettuato in precedenza). Qualora una qualsiasi previsione delle presenti Condizioni fosse ritenuta invalida, nulla o per qualunque motivo inapplicabile, tale condizione non pregiudicherà comunque la validità e l'efficacia delle altre previsioni.</value>
+        <value xml:lang="en">Olmar reserves the right to alter this Website, its policies and these General Conditions of Sale at any time, in order to offer new products and services, or to comply with legal or regulatory provisions. Customers accessing the Website and submitting an order shall comply with the policies and terms of the General Conditions of Sale in force at the time of placing the order, unless such amendments have retroactive effect pursuant to the applicable law (in this case, they may also apply to orders the customer has placed previously). Should any of the provisions of these Conditions of Sale be deemed invalid or void or for any reason inapplicable, the condition shall not prejudice the validity and effectiveness of all other provisions.</value>
+    </property>
+
+</resource>

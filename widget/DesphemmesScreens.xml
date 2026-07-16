@@ -224,7 +224,7 @@ under the License.
         <section>
             <actions>
                 <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
-
+                <property-map resource="PrivacyUiLabels" map-name="PrivacyUiLabels" global="true"/>
 
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>

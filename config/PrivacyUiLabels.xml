@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<!-- Keep only English language here because of OFBIZ-13095 -->
+
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+
+    <property key="Title">
+        <value xml:lang="it">Privacy &amp; Cookie Policy – informativa sul trattamento dei dati personali</value>
+        <value xml:lang="en">Privacy &amp; Cookie Policy – Information on the processing of personal data</value>
+    </property>
+
+    <property key="Version">
+        <value xml:lang="it">Versione: maggio 2026</value>
+        <value xml:lang="en">Version: May 2026</value>
+    </property>
+
+    <property key="Regulation">
+        <value xml:lang="it">Ai sensi dell'articolo 13 del Regolamento (UE) 2016/679 sulla protezione dei dati personali (di seguito “GDPR”) il titolare informa sui trattamenti di dati personali effettuati attraverso questo sito web (di seguito anche abbreviato il “sito”) all’indirizzo shopdesphemmes.com.
+            Queste informazioni riguardano questo sito web e non altri siti web eventualmente consultati dall’utente tramite la navigazione dei link presenti sul sito, per i quali si rimanda alle informazioni fornite dagli altri siti in merito alla loro gestione dei dati personali degli utenti. </value>
+        <value xml:lang="en">Pursuant to Article 13 of Regulation (EU) 2016/679 on the protection of personal data (hereinafter "GDPR"), the data controller informs about the processing of personal data carried out through this website (hereinafter also abbreviated as the "site") at the address shopdesphemmes.com. This information concerns this website and not other websites that the user may consult by navigating the links on the site, for which reference should be made to the information provided by the other sites regarding their management of users' personal data.</value>
+    </property>
+
+    <property key="DataController">
+        <value xml:lang="it">Titolare del trattamento e dati di contatto</value>
+        <value xml:lang="en">Data Controller and Contact Details</value>
+    </property>
+
+    <property key="Company">
+        <value xml:lang="it">Olmar and Mirta S.p.A.</value>
+        <value xml:lang="en">Olmar and Mirta S.p.A.</value>
+    </property>
+
+    <property key="Headquarters">
+        <value xml:lang="it">Sede: Via Cocapana 9, 46026 Quistello (MN) Italy</value>
+        <value xml:lang="en">Headquarters: Via Cocapana 9, 46026 Quistello (MN) Italy</value>
+    </property>
+
+    <property key="Email">
+        <value xml:lang="it">E-mail: info@olmarandmirta.com</value>
+        <value xml:lang="en">E-mail: info@olmarandmirta.com</value>
+    </property>
+
+    <property key="Phone">
+        <value xml:lang="it">Tel. +39 0376 618905</value>
+        <value xml:lang="en">Phone: +39 0376 618905</value>
+    </property>
+
+    <property key="PurposeProcessing">
+        <value xml:lang="it">Finalità di trattamento e base giuridica</value>
+        <value xml:lang="en">Purposes of the Processing and Legal Basis</value>
+    </property>
+
+    <property key="PersonalData">
+        <value xml:lang="it">I dati personali raccolti e trattati attraverso il sito web sono utilizzati per le seguenti finalità in accordo alle rispettive basi giuridiche:</value>
+        <value xml:lang="en">The personal data collected and processed through the website are used for the following purposes in accordance with the respective legal bases:</value>
+    </property>
+
+    <property key="CorrectNavigation">
+        <value xml:lang="it">consentire la corretta navigazione del sito tramite i dati tecnici di navigazione oppure i dati raccolti dai cookies tecnici; la base giuridica è il legittimo interesse del titolare del trattamento ai sensi di art. 6 par. 1 f) del GDPR;</value>
+        <value xml:lang="en">Allowing the correct navigation of the site through technical navigation data or data collected by technical cookies. The legal basis is the legitimate interest of the data controller pursuant to Art. 6 par. 1 f) of the GDPR.</value>
+    </property>
+
+    <property key="AnalyzingData">
+        <value xml:lang="it">analizzare l’uso del sito mediante elaborazione statistica di dati anonimi o aggregati, anche raccolti tramite cookies analitici configurati per la raccolta di dati anonimizzati che non identificano direttamente l’utente; la base giuridica è il legittimo interesse del titolare del trattamento ai sensi di art. 6 par. 1 f) del GDPR;</value>
+        <value xml:lang="en">Analyzing the use of the site through statistical processing of anonymous or aggregated data, including those collected via analytical cookies configured for the collection of anonymized data that do not directly identify the user. The legal basis is the legitimate interest of the data controller pursuant to Art. 6 par. 1 f) of the GDPR.</value>
+    </property>
+
+    <property key="RespondingRequests">
+        <value xml:lang="it">rispondere alle richieste di informazioni tramite la compilazione dei form e permettere il download di contenuti, la base giuridica è l’esecuzione di accordi contrattuali, ai sensi di art. 6 par. 1 b) del GDPR;</value>
+        <value xml:lang="en">Responding to requests for information by filling out forms and allowing the download of content; the legal basis is the execution of contractual agreements, pursuant to Art. 6 par. 1 b) of the GDPR.</value>
+    </property>
+
+    <property key="RegisteringUser">
+        <value xml:lang="it">registrare l’account dell’utente e amministrare il suo account (la registrazione è obbligatoria per fare acquisti sul sito); la base giuridica è l’esecuzione di accordi contrattuali ai sensi di art. 6 par. 1 b) del GDPR;</value>
+        <value xml:lang="en">Registering the user account and administering their account (registration is mandatory to make purchases on the site). The legal basis is the execution of contractual agreements pursuant to Art. 6 par. 1 b) of the GDPR.</value>
+    </property>
+
+    <property key="SellingProducts">
+        <value xml:lang="it">vendere i nostri prodotti o servizi e dare puntuale esecuzione agli obblighi nascenti nella fase precontrattuale e contrattuale; la base giuridica è l’esecuzione di accordi contrattuali ai sensi di art. 6 par. 1 b) del GDPR;</value>
+        <value xml:lang="en">Selling our products or services and ensuring the timely execution of obligations arising in the pre-contractual and contractual phase. The legal basis is the execution of contractual agreements pursuant to Art. 6 par. 1 b) of the GDPR.</value>
+    </property>
+
+    <property key="FulfillingIncumbent">
+        <value xml:lang="it">dare corso agli obblighi che competono al titolare che sono previsti da leggi, regolamenti e/o normative italiane e comunitarie applicabili, la base giuridica sono gli adempimenti di legge ai sensi di art. 6 par. 1 c) del GDPR;</value>
+        <value xml:lang="en">Fulfilling the obligations incumbent on the controller provided for by applicable Italian and EU laws, regulations, and/or rules; the legal basis is compliance with a legal obligation pursuant to Art. 6 par. 1 c) of the GDPR.</value>
+    </property>
+
+    <property key="PriorConsent">
+        <value xml:lang="it">Con il consenso preventivo e specifico dell’interessato, che rappresenta la base giuridica per il trattamento ai sensi di art. 6 par. 1 lett a) del GDPR, i dati saranno trattati dal titolare per effettuare una profilazione dell’utente secondo i suoi interessi, scelte e preferenze, al fine di offrire servizi migliori e personalizzati; oppure, secondo il consenso prestato in modo specifico, saranno comunicati a terzi per l’invio di loro comunicazioni commerciali e promozionali;</value>
+        <value xml:lang="en">With the prior and specific consent of the data subject, which represents the legal basis for processing pursuant to Art. 6 par. 1 lit. a) of the GDPR, the data will be processed by the controller to profile the user according to their interests, choices, and preferences, in order to offer better and personalized services. Alternatively, according to the specifically given consent, they will be communicated to third parties for sending their commercial and promotional communications.</value>
+    </property>
+
+    <property key="PriorConsentDataSubject">
+        <value xml:lang="it">Con il consenso preventivo dell’interessato, che rappresenta la base giuridica per il trattamento ai sensi di art. 6 par. 1 lett a) del GDPR, trasmettere cookies di profilazione ai fini di marketing e pubblicità, come meglio specificato nella Cookie Policy.</value>
+        <value xml:lang="en">With the prior consent of the data subject, which represents the legal basis for processing pursuant to Art. 6 par. 1 lit. a) of the GDPR, transmitting profiling cookies for marketing and advertising purposes, as further specified in the Cookie Policy.</value>
+    </property>
+
+    <property key="TechnicalTitle">
+        <value xml:lang="it">Dati tecnici di navigazione</value>
+        <value xml:lang="en">Technical Navigation Data</value>
+    </property>
+
+    <property key="ComputerSystems">
+        <value xml:lang="it">I sistemi informatici e le procedure software preposte al funzionamento di questo sito web acquisiscono, nel corso del loro normale esercizio, alcuni dati la cui trasmissione è implicita nell’uso dei protocolli di comunicazione di Internet. In questa categoria di dati rientrano: gli indirizzi IP, il tipo di browser utilizzato, il sistema operativo, il nome di dominio e gli indirizzi di siti web dai quali è stato effettuato l’accesso o l’uscita, le informazioni sulle pagine visitate dagli utenti all’interno del sito, l’orario d’accesso, l’analisi di percorso interno e altri parametri relativi al sistema operativo e all’ambiente informatico dell’utente. Tali dati di carattere tecnico sono accessibili al titolare in maniera aggregata e non identificativa sono usati per finalità di gestione tecnica dei servizi erogati e di analisi statistica anonima del traffico generato e delle pagine visitate, in caso di attacchi informatici al sito, di reati o di illeciti commessi attraverso il sito, possono essere usati per finalità di indagine e di accertamento delle responsabilità. I dati sono conservati per il tempo necessario all’espletamento delle finalità specificate, fatto salvo il caso in cui sia necessario tenere i dati per accertare incidenti, fatti illeciti o reati o su richiesta delle Forze dell’Ordine o dell’Autorità.</value>
+        <value xml:lang="en">The computer systems and software procedures used to operate this website acquire, during their normal operation, some data whose transmission is implicit in the use of Internet communication protocols.
+            This category of data includes: IP addresses, the type of browser used, the operating system, the domain name and the addresses of websites from which access or exit was made, information on the pages visited by users within the site, access time, internal path analysis, and other parameters relating to the user's operating system and IT environment.
+            Such technical data are accessible to the controller in an aggregated and non-identifying manner and are used for the purpose of technical management of the services provided and anonymous statistical analysis of the traffic generated and the pages visited; in the event of computer attacks on the site, crimes, or offenses committed through the site, they may be used for investigation purposes and to ascertain responsibility.
+            The data are kept for the time necessary to fulfill the specified purposes, except where it is necessary to keep the data to ascertain incidents, illicit acts, or crimes, or upon request from Law Enforcement or Authorities.</value>
+    </property>
+
+    <property key="DataProvidedTitle">
+        <value xml:lang="it">Dati forniti per la registrazione dell’account utente</value>
+        <value xml:lang="en">Data Provided for User Account Registration</value>
+    </property>
+
+    <property key="CreationUserAccount">
+        <value xml:lang="it">La creazione di un account utente è obbligatoria per fare acquisti sul sito tramite la piattaforma di e-commerce. Per la registrazione sono richiesti solo i dati personali comuni, limitati e necessari alle finalità di trattamento: nome cognome, indirizzo e-mail, password, indirizzo postale di residenza/domicilio usato anche per le spedizioni, che saranno usati per registrare ed amministrare l'account dell'utente, permettere l’accesso all’area riservata del sito e visualizzare gli avvisi, gestire il carrello elettronico degli acquisti, visualizzare lo storico degli ordini, gestire eventuali note di credito o buoni di acquisto a favore dell’utente, modificare i propri dati personali o l’indirizzo di spedizione. I dati saranno conservati per il tempo di validità dell’iscrizione dell’utente sino alla richiesta di cancellazione o recesso da parte dell’utente, che in seguito non potrà più accedere alla propria area riservata.</value>
+        <value xml:lang="en">The creation of a user account is mandatory to make purchases on the site via the e-commerce platform.
+            Only common personal data, limited and necessary for the processing purposes, are required for registration: name, surname, email address, password, residential/domicile postal address also used for shipments.
+            These will be used to register and administer the user's account, allow access to the reserved area of the site and view notices, manage the electronic shopping cart, view order history, manage any credit notes or purchase vouchers in favor of the user, and modify personal data or the shipping address.
+            The data will be kept for the duration of the user's registration validity until a cancellation or withdrawal request by the user, who subsequently will no longer be able to access their reserved area. </value>
+    </property>
+
+    <property key="DataProvidedPurchase">
+        <value xml:lang="it">Dati forniti per acquisti e spedizioni</value>
+        <value xml:lang="en">Data Provided for Purchases and Shipments</value>
+    </property>
+
+    <property key="SalesOnTheSite">
+        <value xml:lang="it">La vendita sul sito è riservata ai clienti privati, cosiddetti consumatori finali dei prodotti che acquistano.
+            Per gli acquisiti effettuati sul sito, con le finalità di gestire le vendite, adempiere agli obblighi contrattuali e legislativi, spedire le merci, emettere i documenti necessari per legge, sono utilizzati i dati di registrazione dell’account compresi i dati anagrafici e fiscali dell’acquirente che sono obbligatori ai sensi di legge, eventualmente può essere fornito un numero di telefono facoltativo per comunicare con il cliente in merito alla consegna. I dati saranno conservati per il tempo richiesto dalle finalità e dalla legge italiana o comunitaria applicabile.</value>
+        <value xml:lang="en">Sales on the site are reserved for private customers, so-called final consumers of the products they purchase.
+            For purchases made on the site, with the purposes of managing sales, fulfilling contractual and legislative obligations, shipping goods, and issuing legally required documents, the account registration data are used, including the buyer's personal and tax data which are mandatory by law; optionally, a telephone number may be provided to communicate with the customer regarding delivery.
+            The data will be kept for the time required by the purposes and by applicable Italian or EU law.</value>
+    </property>
+
+    <property key="InformationRelating">
+        <value xml:lang="it">Le informazioni relative al pagamento con carta di credito o altro circuito di pagamento elettronico, ovvero i dati dell’utente e della carta di credito o del mezzo di pagamento utilizzato, saranno trattati direttamente dalla piattaforma bancaria per le transazioni elettroniche dei pagamenti collegata al nostro sito che gestirà in modo autonomo queste informazioni, pertanto si invita il cliente a leggere le informazioni sul trattamento dei suoi dati personali che sono fornite direttamente dalla piattaforma del mezzo di pagamento prescelto dal cliente dove viene eseguito il pagamento.
+        </value>
+        <value xml:lang="en">Information relating to payment by credit card or other electronic payment circuit, or rather the user's data and the credit card or payment method used, will be processed directly by the banking platform for electronic payment transactions connected to our site, which will manage this information autonomously.
+            Therefore, the customer is invited to read the information on the processing of their personal data provided directly by the platform of the payment method chosen by the customer where the payment is executed. </value>
+    </property>
+
+    <property key="ConsentData">
+        <value xml:lang="it">Consenso per la comunicazione dei dati a terze parti</value>
+        <value xml:lang="en">Consent for Data Communication to Third Parties</value>
+    </property>
+
+    <property key="SubjectSpecificConsent">
+        <value xml:lang="it">Previo consenso specifico, i dati personali dell’utente saranno comunicati a terze parti selezionate che sono nostri partner commerciali, che li useranno per l’invio di messaggi e-mail per comunicazioni commerciali dal contenuto informativo, pubblicitario, commerciale e promozionale sui loro prodotti o servizi. La base giuridica del trattamento è il consenso libero, specifico ed informato, ai sensi di art. 6 par. 1 a) del GDPR. Il consenso potrà essere revocato in ogni momento nell’esercizio dei propri diritti, ma la revoca non avrà effetto sul trattamento già effettuato sulla base del consenso precedente.</value>
+        <value xml:lang="en">Subject to specific consent, the user's personal data will be communicated to selected third parties who are our commercial partners, who will use them to send email messages for commercial communications with informative, advertising, commercial, and promotional content about their products or services.
+            The legal basis for the processing is the free, specific, and informed consent, pursuant to Art. 6 par. 1 a) of the GDPR.
+            Consent may be revoked at any time when exercising one's rights, but the revocation will not affect the processing already carried out based on the previous consent.</value>
+    </property>
+
+    <property key="ConsentProfiling">
+        <value xml:lang="it">Consenso per la profilazione</value>
+        <value xml:lang="en">Consent for Profiling</value>
+    </property>
+
+    <property key="ConsentProfilingActivities">
+        <value xml:lang="it">Previo consenso specifico, i dati personali dell’utente saranno trattati per attività di profilazione basata sugli acquisti effettuati e su interessi, scelte e preferenze dell’utente, al fine di migliorare e personalizzare la nostra offerta di nostri prodotti e servizi. La base giuridica del trattamento è il consenso libero, specifico ed informato reso dall’utente, ai sensi di art. 6 par. 1 a) del GDPR. Il consenso potrà essere revocato in ogni momento nell’esercizio dei propri diritti, ma la revoca non avrà effetto sul trattamento già effettuato sulla base del consenso precedente.</value>
+        <value xml:lang="en">Subject to specific consent, the user's personal data will be processed for profiling activities based on purchases made and on the user's interests, choices, and preferences, in order to improve and personalize our offer of products and services.
+            The legal basis for the processing is the free, specific, and informed consent given by the user, pursuant to Art. 6 par. 1 a) of the GDPR.
+            Consent may be revoked at any time when exercising one's rights, but the revocation will not affect the processing already carried out based on the previous consent.</value>
+    </property>
+
+    <property key="LinkToOtherSites">
+        <value xml:lang="it">Link verso altri siti –Social Network Plugin</value>
+        <value xml:lang="en">Links to Other Sites – Social Network Plugins</value>
+    </property>
+
+    <property key="PageOfTheSite">
+        <value xml:lang="it">Nelle pagine del sito possono esservi dei link per visitare altri siti web di terze parti, l'uso di tali funzionalità porta l’utente ad interagire con i servizi web offerti dai siti di terze parti e implica lo scambio di informazioni con tali siti, il visitatore viene rediretto sul sito di terza parte uscendo dal nostro sito e, pertanto, la gestione delle informazioni è effettuata dalle terze parti in modo autonomo.</value>
+        <value xml:lang="en">On the pages of the site there may be links to visit other third-party websites; the use of such features leads the user to interact with web services offered by third-party sites and implies the exchange of information with such sites; the visitor is redirected to the third-party site leaving our site and, therefore, the management of information is carried out autonomously by the third parties.</value>
+    </property>
+
+    <property key="SiteIncorporates">
+        <value xml:lang="it">Il sito incorpora anche plugin come i “social buttons” con lo scopo di consentire una facile condivisione dei contenuti del nostro sito sui vostri social network preferiti. Per salvaguardare la privacy degli utenti tali plugin sono programmati in modo da non impostare alcun cookie all'accesso della pagina, ma solo quando l'utente fa effettivo e volontario uso del plugin, secondo le impostazioni del social network. Se l'utente naviga il sito mentre è loggato al suo profilo nel social network ha già acconsentito all'uso dei cookie veicolati tramite il social network. La raccolta e l'uso delle informazioni ottenute dalle terze parti a mezzo del plugin sono regolati dalle rispettive informative privacy dei social network, alle quali si prega di fare riferimento.</value>
+        <value xml:lang="en">The site also incorporates plugins such as "social buttons" with the aim of allowing easy sharing of our site's content on your favorite social networks. To safeguard user privacy, these plugins are programmed so as not to set any cookies when accessing the page, but only when the user makes actual and voluntary use of the plugin, according to the settings of the social network.
+            If the user browses the site while logged into their profile on the social network, they have already consented to the use of cookies conveyed through the social network.
+            The collection and use of information obtained by third parties through the plugin are governed by the respective privacy policies of the social networks, to which please refer.</value>
+    </property>
+
+    <property key="CookiesTitle">
+        <value xml:lang="it">Cookies – Cookie Policy</value>
+        <value xml:lang="en">Cookies – Cookie Policy</value>
+    </property>
+
+    <property key="SmallFiles">
+        <value xml:lang="it">I cookies (di seguito “cookie”) sono piccoli files che vengono salvati sul dispositivo dell'utente durante la navigazione sul sito web, hanno lo scopo di raccogliere informazioni sull’utilizzo del sito da parte dell’utente e possono essere ritrasmessi o riutilizzati in occasione di visite successive.</value>
+        <value xml:lang="en">Cookies are small files that are saved on the user's device while browsing the website; they serve the purpose of collecting information on the user's use of the site and can be retransmitted or reused during subsequent visits.</value>
+    </property>
+
+    <property key="DifferentCharacteristics">
+        <value xml:lang="it">I cookie hanno caratteristiche diverse e sono usati per diverse finalità, sia dal titolare del sito che si sta visitando (c.d. cookie di prima parte), sia da altri siti (c.d. cookie di terze parti) se nel sito sono incorporati strumenti web forniti da terze parti. I cookie possono essere memorizzati in modo permanente sul dispositivo oppure avere una durata variabile (c.d. cookie persistenti), altrimenti sono temporanei e vengono eliminati alla chiusura del browser oppure avere una durata limitata (c.d. cookie di sessione). Esistono altre tecnologie come pixel tag, web bug, web storage e altri file e tecnologie simili che possono svolgere le stesse funzioni dei cookie, nella presente Cookie Policy utilizziamo il termine "cookie" anche per tutte queste tecnologie simili.</value>
+        <value xml:lang="en">Cookies have different characteristics and are used for different purposes, both by the owner of the site being visited (so-called first-party cookies) and by other sites (so-called third-party cookies) if web tools provided by third parties are incorporated into the site.
+            Cookies can be permanently stored on the device or have a variable duration (so-called persistent cookies), otherwise, they are temporary and are deleted when the browser is closed or have a limited duration (so-called session cookies).
+            There are other technologies such as pixel tags, web bugs, web storage, and other similar files and technologies that can perform the same functions as cookies; in this Cookie Policy, we use the term "cookie" also for all these similar technologies.</value>
+    </property>
+
+    <property key="DetailedInformation">
+        <value xml:lang="it">Per informazioni dettagliate e aggiornate sui cookies usati nel sito, si invita a leggere la Cookie Policy completa:</value>
+        <value xml:lang="en">For detailed and updated information on the cookies used on the site, please read the complete Cookie Policy:</value>
+    </property>
+
+    <property key="CookieManagementTitle">
+        <value xml:lang="it">Gestione dei cookies</value>
+        <value xml:lang="en">Cookie Management</value>
+    </property>
+
+    <property key="UponAccessing">
+        <value xml:lang="it">Al momento dell'accesso al sito è presente un banner che contiene un testo di informativa breve ed il collegamento a questa informativa estesa.
+            Il banner permette al visitatore di gestire l'uso dei cookie e di impostare la scelta per i cookie facoltativi di profilazione/tracciamento, come impostazione predefinita sono abilitati solo i cookie funzionali/tecnici che sono necessari e non disattivabili senza perdita di funzionalità del sito.
+            Il consenso all'uso dei cookie impostati viene registrato con un “cookie tecnico” salvato nel dispositivo dell’utente.</value>
+        <value xml:lang="en">Upon accessing the site, there is a banner containing a short informative text and a link to this extended policy.
+            The banner allows the visitor to manage the use of cookies and set their choice for optional profiling/tracking cookies; by default, only functional/technical cookies are enabled, which are necessary and cannot be disabled without losing site functionality.
+            Consent to the use of set cookies is recorded with a "technical cookie" saved on the user's device.</value>
+    </property>
+
+    <property key="CookieManagement">
+        <value xml:lang="it">La gestione dei cookie è anche possibile cambiando le impostazioni del browser attraverso le seguenti possibili soluzioni, sono esemplificative e ne esistono anche altre:</value>
+        <value xml:lang="en">Cookie management is also possible by changing browser settings through the following possible solutions, which are examples and others exist: </value>
+    </property>
+
+    <property key="BrowserSettings">
+        <value xml:lang="it">modifica delle impostazioni del browser, che consentono o meno la memorizzazione dei cookie e che di norma permettono anche di impostare le regole dei cookie in modo che non vengano accettati quelli di "terze parti". Alcuni consentono anche di bloccare i cookie di alcune terze parti e non di altre, tramite una funzione che permette di indicare da quali domini consentire l’invio di cookie;</value>
+        <value xml:lang="en">Modifying the browser settings, which allow or deny the storage of cookies and usually also allow setting cookie rules so that "third-party" cookies are not accepted. </value>
+    </property>
+
+    <property key="BlockingCookies">
+        <value xml:lang="it">con specifici componenti software aggiunti al browser (c.d. plug-in), che specializzano le funzioni comunemente rese disponibili dai software per la navigazione e che possono essere configurati dall’utente per effettuare una selezione dei cookie sulla base dei domini di provenienza;</value>
+        <value xml:lang="en">Some also allow blocking cookies from certain third parties and not others, through a function that allows indicating from which domains to allow the sending of cookies. </value>
+    </property>
+
+    <property key="DoNotTrack">
+        <value xml:lang="it">mediante il cosiddetto "do not track", che consente all’utente di segnalare a ciascun sito visitato la sua volontà di essere o meno tracciato nel corso della navigazione. Però questa modalità tecnica non è standardizzata e non vi è certezza che tale funzionalità sia implementata su tutti i domini che depositano cookie sul sito e per i quali, essendo di terze parti, il titolare non controllo;</value>
+        <value xml:lang="en">Through the so-called "do not track", which allows the user to signal to each visited site their desire to be tracked or not during navigation. However, this technical method is not standardized and there is no certainty that this functionality is implemented on all domains that place cookies on the site and for which, being third parties, the controller has no control.</value>
+    </property>
+
+    <property key="DisableAnalytics">
+        <value xml:lang="it">È possibile disabilitare i cookie di Google Analytics visitando la pagina web di Google (Google GaOptOut) e scaricando il componente aggiuntivo per il browser utilizzato</value>
+        <value xml:lang="en">t is possible to disable Google Analytics cookies by visiting the Google web page (Google GaOptOut) and downloading the add-on for the browser used.</value>
+    </property>
+
+    <property key="BlockAllCookies">
+        <value xml:lang="it">Nota: scegliendo di bloccare tutti i cookie, la piena funzionalità del sito Web può essere compromessa.</value>
+        <value xml:lang="en">Note: By choosing to block all cookies, the full functionality of the website may be compromised.</value>
+    </property>
+
+    <property key="ProcessingMethods">
+        <value xml:lang="it">Modalità di trattamento e di conservazione</value>
+        <value xml:lang="en">Processing and Retention Methods</value>
+    </property>
+
+    <property key="DataWillBeProcessed">
+        <value xml:lang="it">I dati saranno trattati con strumenti informatici/elettronici da personale autorizzato ed istruito dal titolare, oppure anche da soggetti terzi designati responsabili per i trattamenti di competenza, sempre nel rispetto dei principi di liceità del trattamento e mediante l'adozione delle adeguate misure di sicurezza per limitare l’accesso ai dati solo ai soggetti autorizzati. I dati saranno conservati per il tempo richiesto dalle finalità di trattamento, in subordine ad eventuali tempi obbligatori per legge.</value>
+        <value xml:lang="en">Data will be processed using IT/electronic tools by personnel authorized and instructed by the controller, or also by designated third parties responsible for the relevant processing, always in compliance with the principles of lawfulness of processing and by adopting appropriate security measures to limit data access only to authorized subjects.
+            The data will be kept for the time required by the processing purposes, subject to any mandatory legal timeframes.</value>
+    </property>
+
+    <property key="DataWillBeCommunicated">
+        <value xml:lang="it">I dati saranno comunicati esclusivamente a soggetti autorizzati e designati per la gestione del sito e delle nostre attività relative al sito:</value>
+        <value xml:lang="en">The data will be communicated exclusively to authorized and designated subjects for the management of the site and our activities related to the site:</value>
+    </property>
+
+    <property key="InternalPersonnel">
+        <value xml:lang="it">personale interno che agisce sotto l’autorità del titolare;</value>
+        <value xml:lang="en">Internal personnel acting under the authority of the controller.</value>
+    </property>
+
+    <property key="HostingProviders">
+        <value xml:lang="it">provider di hosting, sviluppatore del sito web, altri fornitori di servizi internet per il sito web professionisti, consulenti o società, per servizi funzionali alla gestione delle nostre attività o per l’amministrazione del sito web;</value>
+        <value xml:lang="en">Hosting providers, website developers, other internet service providers for the website, professionals, consultants, or companies, for services functional to the management of our activities or for website administration.</value>
+    </property>
+
+    <property key="MadeOnTheSite">
+        <value xml:lang="it">per gli acquisti effettuati sul sito, i dati potranno essere trasmessi a trasportatori, corrieri, servizi postali, aziende di spedizioni e logistica, piattaforme di pagamento per il commercio elettronico, che agiscono come titolari autonomi del trattamento;</value>
+        <value xml:lang="en">For purchases made on the site, data may be transmitted to transporters, couriers, postal services, shipping and logistics companies, and payment platforms for e-commerce, acting as independent data controllers.</value>
+    </property>
+
+    <property key="SiteUsersData">
+        <value xml:lang="it">I dati degli utenti del sito non sono diffusi e non vengono trasferiti fuori dallo Spazio Economico Europeo.
+            I dati dei cookie saranno comunicati esclusivamente a soggetti autorizzati e designati per la gestione del sito e delle nostre attività relative al sito:</value>
+        <value xml:lang="en">Site users' data are not disseminated and are not transferred outside the European Economic Area.
+            Cookie data will be communicated exclusively to authorized and designated subjects for the management of the site and our activities related to the site:</value>
+    </property>
+
+    <property key="InternalPersonnelActing">
+        <value xml:lang="it">personale interno che agisce sotto l’autorità del titolare;</value>
+        <value xml:lang="en">Internal personnel acting under the authority of the controller.</value>
+    </property>
+
+    <property key="Website">
+        <value xml:lang="it">sviluppatore del sito web, altri fornitori di servizi internet per il sito web.</value>
+        <value xml:lang="en">Website developer, other internet service providers for the website.</value>
+    </property>
+
+    <property key="DataTransfer">
+        <value xml:lang="it">Trasferimento dei dati extra-UE</value>
+        <value xml:lang="en">Data Transfer Outside the EU</value>
+    </property>
+
+    <property key="ThirdParty">
+        <value xml:lang="it">Alcuni dati dei cookies di terze parti, analitici o di profilazione, depositati dopo il consenso specifico dell’utente, potranno essere trasferiti fuori dall’UE a provider o fornitori di servizi web collocati negli USA, considerato paese adeguato ai fini della normativa europea sulla protezione dei dati personali: questi soggetti terzi forniscono le garanzie di un adeguato livello di protezione rispondente ai requisiti normativi, con particolare riguardo alle misure di sicurezza adottate ai sensi del GDPR.</value>
+        <value xml:lang="en">Some data from third-party, analytical, or profiling cookies, deposited after the user's specific consent, may be transferred outside the EU to web service providers or suppliers located in the USA, considered an adequate country for the purposes of European legislation on the protection of personal data: these third parties provide guarantees of an adequate level of protection meeting regulatory requirements, with particular regard to security measures adopted pursuant to the GDPR.</value>
+    </property>
+
+    <property key="Exercise">
+        <value xml:lang="it">Esercizio dei diritti dell’interessato</value>
+        <value xml:lang="en">Exercise of Data Subject's Rights</value>
+    </property>
+
+    <property key="SubjectToTheLimitations">
+        <value xml:lang="it">Salvo le limitazioni previste dalla stessa normativa, il soggetto interessato potrà in qualsiasi momento rivolgersi al titolare presso i recapiti qui indicati per esercitare i diritti garantiti dalla normativa: accesso ai dati personali (GDPR, art. 15); rettifica (GDPR, art. 16); cancellazione (GDPR, art. 17); limitazione del trattamento (GDPR, art. 18); opposizione al trattamento (GDPR, art. 21); portabilità dei dati (GDPR, art. 20); revoca del consenso, ove previsto: la revoca del consenso non pregiudica la liceità del trattamento basata sul consenso conferito prima della revoca (GDPR; art. 7); informazioni sul processo automatizzato relativo alla profilazione (GDPR, art. 22).
+        </value>
+        <value xml:lang="en">Subject to the limitations provided for by the legislation itself, the data subject may at any time contact the controller at the contact details indicated here to exercise the rights guaranteed by the legislation:
+            Access to personal data (GDPR, Art. 15), Rectification (GDPR, Art. 16); Erasure (GDPR, Art. 17); Restriction of processing (GDPR, Art. 18); Objection to processing (GDPR, Art. 21); Data portability (GDPR, Art. 20). Revocation of consent, where provided: the revocation of consent does not affect the lawfulness of the processing based on consent given before the revocation (GDPR, Art. 7); Information on the automated process related to profiling (GDPR, Art. 22); </value>
+    </property>
+
+    <property key="ToExercise">
+        <value xml:lang="it">Per esercitare i propri diritti l’interessato deve rivolgersi al titolare usando i dati di contatto indicati in questa pagina. Il soggetto interessato può anche proporre reclamo, nei termini e modi previsti, presso l’Autorità di controllo, per maggiori informazioni si invita l’Utente a consultare il sito del Garante www.gpdp.it.
+        </value>
+        <value xml:lang="en">To exercise their rights, the data subject must contact the controller using the contact details indicated on this page.; The data subject may also lodge a complaint, within the terms and methods provided, with the Supervisory Authority; for further information, the User is invited to consult the Guarantor's website www.gpdp.it .</value>
+    </property>
+
+    <property key="UpdatingInformation">
+        <value xml:lang="it">Aggiornamento di queste informazioni</value>
+        <value xml:lang="en">Updating of this Information</value>
+    </property>
+
+    <property key="ThePossibleEntry">
+        <value xml:lang="it">L’eventuale entrata in vigore di nuove normative di settore, come anche il costante esame e aggiornamento dei servizi all’utente, potrebbe comportare la necessità di variare le modalità di trattamento dei dati personali attraverso il sito: è possibile che la nostra policy subisca modifiche nel tempo e invitiamo, pertanto, il visitatore a consultare periodicamente questa pagina.</value>
+        <value xml:lang="en">The possible entry into force of new sector regulations, as well as the constant review and updating of services to the user, could entail the need to change the methods of processing personal data through the site: it is possible that our policy will undergo changes over time, and we therefore invite the visitor to periodically consult this page.</value>
+    </property>
+</resource>

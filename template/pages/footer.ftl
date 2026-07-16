@@ -29,6 +29,10 @@
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Servizio clienti</h4>
 						<ul class="list-unstyled iconlist m-0">
 							<li class="footerlink"><a href="<@ofbizUrl>sizeguide</@ofbizUrl>" class="upper">${SystemLabelMap.SizeGuide}</a></li>
+							<li></li>
+							<li></li>
+							<li><a href="mailto:customercare@shopdesphemmes.com">customercare@shopdesphemmes.com</a></li>
+                            <li><a href="tel:+390376618905">0376 618905 ext.1037</a></li>
 						</ul>
 					</div>
 				</div>

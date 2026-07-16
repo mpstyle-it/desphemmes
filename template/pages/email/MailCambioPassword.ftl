@@ -831,7 +831,9 @@
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
-                                                            </table><table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            </table>
+                                                            <#--
+                                                            <table class="mcnTextBlock" style="min-width:100%;" width="100%" cellspacing="0" cellpadding="0" border="0">
                                                             <tbody class="mcnTextBlockOuter">
                                                                 <tr>
                                                                     <td class="mcnTextBlockInner" style="padding-top:9px;" valign="top">
@@ -854,7 +856,9 @@
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
-                                                            </table></td>
+                                                            </table>
+                                                            -->
+                                                            </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // END TEMPLATE -->
