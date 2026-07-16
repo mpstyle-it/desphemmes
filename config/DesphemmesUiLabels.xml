@@ -188,8 +188,8 @@ under the License.
     </property>
 
     <property key="PrivacyPolicy">
-        <value xml:lang="it">Privacy policy</value>
-        <value xml:lang="en">Privacy policy</value>
+        <value xml:lang="it">Privacy &amp; cookie policy</value>
+        <value xml:lang="en">Privacy &amp; cookie policy</value>
     </property>
 
     <property key="CookieManagement">

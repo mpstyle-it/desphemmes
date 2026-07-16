@@ -42,7 +42,6 @@
 						<ul class="list-unstyled iconlist m-0">
 							<li class="footerlink"><a href="<@ofbizUrl>salesconditions</@ofbizUrl>" class="upper">${SystemLabelMap.SalesConditions}</a></li>
 							<li class="footerlink"><a href="<@ofbizUrl>privacy</@ofbizUrl>" class="upper">${SystemLabelMap.PrivacyPolicy}</a></li>
-							<li class="footerlink"><a href="<@ofbizUrl>cookie</@ofbizUrl>" class="upper">${SystemLabelMap.CookieManagement}</a></li>
 						</ul>
 					</div>
 				</div>
