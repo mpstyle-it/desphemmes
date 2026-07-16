@@ -200,7 +200,7 @@ under the License.
         <section>
             <actions>
                 <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
-                <property-map resource="SalesConditionsUiLabels" map-name="SalesConditionsLabelMap" global="true"/>
+                <property-map resource="DEPSalesConditionsUiLabels" map-name="SalesConditionsLabelMap" global="true"/>
 
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
@@ -224,7 +224,7 @@ under the License.
         <section>
             <actions>
                 <property-map resource="DesphemmesUiLabels" map-name="SystemLabelMap" global="true"/>
-                <property-map resource="PrivacyUiLabels" map-name="PrivacyUiLabels" global="true"/>
+                <property-map resource="DEPPrivacyUiLabels" map-name="PrivacyUiLabels" global="true"/>
 
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/DynamicMenu.groovy"/>
                 <script location="component://desphemmes/src/main/groovy/desphemmes/ecommerce/cart/ShowCart.groovy"/>
