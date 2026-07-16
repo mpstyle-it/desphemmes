@@ -179,8 +179,8 @@
  </property>
  
  <property key="ShippingConfirmationOrderShipped">
- 	<value xml:lang="it"> è stato preso in carico e lo riceverai tra pochi giorni.</value>
- 	<value xml:lang="en"> has been processed and it will be delivered to you in few days.</value>
+ 	<value xml:lang="it"> è stato preso in carico;entro pochi giorni verrà spedito e riceverai tracking number da DHL </value>
+ 	<value xml:lang="en"> has been processed; within a few days it will be shipped and you will receive DHL’s tracking number.</value>
 </property>
 
  <property key="ShippingConfirmationShippingAddr">
