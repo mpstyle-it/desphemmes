@@ -20,6 +20,7 @@ def gTagManagerId = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID,
 def clarityId = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.clarityId","xlw7o7w7in", delegator)
 
 def iubendaId = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.iubendaId","18375779-4e86-4443-90d5-f1bf52cbd7ed", delegator)
+def iubendaApiKey = EntityUtilProperties.getPropertyValue(MPSTYLEUI_RESOURCE_ID, "ui.iubendaApiKey","H461wQwqRQweszXoTOOuNsuKFPqbiMMe", delegator)
 
 globalContext.assetspath = assetspath
 globalContext.quickAddToCartMobile = quickAddToCartMobile.toUpperCase()
@@ -31,3 +32,4 @@ globalContext.gTagManagerId = gTagManagerId;
 globalContext.clarityId = clarityId;
 
 globalContext.iubendaId = iubendaId;
+globalContext.iubendaApiKey = iubendaApiKey;
