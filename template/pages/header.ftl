@@ -2,6 +2,9 @@
 		============================================= -->
 <header id="header" class="header-size-md" data-sticky-shrink="false" data-sticky-class="not-dark">
     <div id="header-wrap" style="border-bottom: none; background-color: #FFF;">
+
+         <#include "common/topBar.ftl" />
+
         <div class="container-fluid">
             <div class="header-row justify-content-lg-center">
 

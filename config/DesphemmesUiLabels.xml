@@ -1437,5 +1437,55 @@ under the License.
         <value xml:lang="it">Cambia nazione</value>
         <value xml:lang="en">Change country</value>
     </property>
+    <!-- END GEOLOCATION labels-->
+
+
+    <!-- START LABEL TOP BAR -->
+
+    <property key="TopBarText">
+        <value xml:lang="it">Gli ordini effettuati dal 10 al 24 agosto saranno processati a partire dal 25/8.</value>
+        <value xml:lang="en">Orders placed between August 10-24 will be processed starting August 25.</value>
+    </property>
+
+    <property key="TopBarShowMore">
+        <value xml:lang="it">Scopri di più.</value>
+        <value xml:lang="en">Show more.</value>
+    </property>
+
+    <!-- END LABEL TOP BAR -->
+
+    <!-- START LABEL SUSPENDED SHIPPING MODAL -->
+
+    <property key="ShippingSuspendedTitle">
+        <value xml:lang="it">Customer Care - Operatività limitata</value>
+        <value xml:lang="en">Customer Care – Limited operations</value>
+    </property>
+
+    <property key="ShippingSuspendedText1">
+        <value xml:lang="it">Gentile Cliente,</value>
+        <value xml:lang="en">Dear Customer,</value>
+    </property>
+
+    <property key="ShippingSuspendedText2">
+        <value xml:lang="it">ti informiamo che in occasione della pausa estiva, tutti gli ordini effettuati tra il 10 e il 24 agosto saranno regolarmente registrati, ma la loro preparazione e spedizione avverrà a partire dal 25 agosto</value>
+        <value xml:lang="en">please note that during our summer break, all orders placed between August 10th and 24th will be securely received, with processing and dispatch resuming on August 25th. </value>
+    </property>
+
+    <property key="ShippingSuspendedText3">
+        <value xml:lang="it">La nostra logistica e i nostri store resteranno regolarmente operativi.</value>
+        <value xml:lang="en">Our logistics department and stores will remain fully operational.</value>
+    </property>
+
+    <property key="ShippingSuspendedText4">
+        <value xml:lang="it">Ti ringraziamo per la comprensione.</value>
+        <value xml:lang="en">We kindly thank you for your understanding.</value>
+    </property>
+
+    <property key="ShippingSuspendedText5">
+        <value xml:lang="it">Ho capito</value>
+        <value xml:lang="en">I understand</value>
+    </property>
+
+    <!-- END LABEL SUSPENDED SHIPPING MODAL -->
 
 </resource>
