@@ -98,7 +98,7 @@
         </div>
 
         <#include "common/shippingCountryPopup.ftl" />
-        <#include "common/shippingSuspendedPopup.ftl" />
+        <#--<#include "common/shippingSuspendedPopup.ftl" />-->
 
         <#include "goToTop.ftl" />
 
