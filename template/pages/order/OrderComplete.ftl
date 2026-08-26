@@ -39,6 +39,49 @@ under the License.
           <div class="row justify-content-end align-items-center py-2 col-mb-30 col-md-offset-4">
             <a href="<@ofbizUrl>index</@ofbizUrl>" class="button button-small button-3d button-black m-0 upper">${SystemLabelMap.EcommerceContinueShopping}</a>
           </div>
+
+          <#-- ============================================================
+           Google Ads / GA4 purchase conversion event
+           Inviato una sola volta per ordine (anti-doppio-conteggio
+           tramite sessionStorage, es. refresh pagina o back/forward).
+           ============================================================ -->
+          <script>
+            (function() {
+              var orderId = "${orderId!''}";
+              if (!orderId) return;
+
+              var storageKey = "ga_purchase_sent_" + orderId;
+              if (sessionStorage.getItem(storageKey)) return;
+
+              var items = [
+                <#list orderItems as orderItem>
+                  <#if orderItem.productId?? && orderItem.productId != "_?_">
+                  {
+                    item_id: "${orderItem.productId}",
+                    item_name: "${(orderItem.itemDescription!'')?js_string}",
+                    price: ${orderItem.unitPrice?c},
+                    quantity: ${orderItem.quantity?c}
+                  }<#sep>,</#sep>
+                  </#if>
+                </#list>
+              ];
+
+              window.dataLayer = window.dataLayer || [];
+              dataLayer.push({
+                event: "purchase",
+                ecommerce: {
+                  transaction_id: "${orderId}",
+                  value: ${orderGrandTotal?c},
+                  currency: "${currencyUomId!'EUR'}",
+                  shipping: ${(orderShippingTotal!0)?c},
+                  tax: ${(orderTaxTotal!0)?c},
+                  items: items
+                }
+              });
+
+              sessionStorage.setItem(storageKey, "1");
+            })();
+          </script>
         <#else>
           <p>${SystemLabelMap.OrderSpecifiedNotFound}</p>
         </#if>
