@@ -127,11 +127,11 @@
 
 		<head>
 
+            <#include "script/iubenda.ftl" />
             <#include "script/gtag.ftl" />
             <#include "script/tagManager.ftl" />
             <#--<#include "script/facebookPixel.ftl" />-->
             <#--<#include "script/hubspot.ftl" />-->
-            <#include "script/iubenda.ftl" />
             <#include "script/clarity.ftl" />
 			<#include "head_meta.ftl" />
 			<#include "stylesheet.ftl" />
