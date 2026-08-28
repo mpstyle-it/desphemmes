@@ -42,6 +42,7 @@ import org.apache.ofbiz.product.store.ProductStoreWorker
 import org.apache.ofbiz.service.ServiceUtil
 import org.apache.ofbiz.webapp.taglib.ContentUrlTag
 import org.apache.ofbiz.webapp.website.WebSiteWorker
+import org.apache.ofbiz.product.category.CategoryContentWrapper;
 
 String tenantId = delegator.getDelegatorTenantId().toLowerCase();
 String blankSku = EntityUtilProperties.getPropertyValue(tenantId,"blankSkuImage",delegator);
@@ -161,6 +162,22 @@ if (product) {
     categoryId = parameters.category_id ?: product.primaryProductCategoryId
     if (categoryId) {
         context.categoryId = categoryId
+
+        // Il breadcrumb (productDetail.ftl) usa 'title' come testo del link categoria e 'categoryId'
+        // (calcolato qui sopra) come link. Category.groovy, eseguito prima di questo script nella
+        // screen 'productdetail', puo' valorizzare 'title' con il nome di una categoria diversa da
+        // quella primaria del prodotto (es. quando il prodotto appartiene anche a un catalogo/categoria
+        // secondaria come 'Facebook Product Catalog', il cui nome puo' essere vuoto). Qui sovrascriviamo
+        // 'title' con il nome reale della categoria primaria, cosi' che link e testo mostrato siano
+        // sempre coerenti tra loro.
+        primaryCategoryForBreadcrumb = from('ProductCategory').where('productCategoryId', categoryId).cache(true).queryOne()
+        if (primaryCategoryForBreadcrumb) {
+            primaryCategoryWrapper = new CategoryContentWrapper(primaryCategoryForBreadcrumb, request)
+            primaryCategoryName = primaryCategoryWrapper.get('CATEGORY_NAME', 'html')
+            if (primaryCategoryName) {
+                context.title = primaryCategoryName
+            }
+        }
     }
 
     catNextPreviousResult = null
