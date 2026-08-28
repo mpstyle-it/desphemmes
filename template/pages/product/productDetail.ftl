@@ -246,9 +246,8 @@
                               <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<@ofbizUrl>index</@ofbizUrl>">Home</a></li>
                                 <#if productCategory?has_content>
-                                    <#assign prcatCntWrapper = Static["org.apache.ofbiz.product.category.CategoryContentWrapper"].makeCategoryContentWrapper(productCategory, request) />
                                   <li class="breadcrumb-item">
-                                    <a href="<@ofbizCatalogAltUrl productCategoryId=categoryId/>">${prcatCntWrapper.get("CATEGORY_NAME", "html")!}</a>
+                                    <a href="<@ofbizCatalogAltUrl productCategoryId=categoryId/>">${title!}</a>
                                   </li>
                                 </#if>
                               </ol>
