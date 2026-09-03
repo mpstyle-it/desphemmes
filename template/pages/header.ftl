@@ -189,8 +189,8 @@
                                                     </ul>
                                                 </#list>
                                             </#list>
-                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>"><div>${SystemLabelMap.SeeAll}</div></a></li>
-                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="ARCHIVE"/>"><div>${SystemLabelMap.SeeAllWinterFall}</div></a></li>
+                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="SEEALL"/>"><div>FALL WINTER 2026/2027</div></a></li>
+                                            <li class="menu-item upper"><a class="menu-link" href="<@ofbizCatalogAltUrl productCategoryId="ARCHIVE"/>"><div>SHOP ARCHIVE</div></a></li>
                                         </ul>
                                     </div>
                                 </div>
