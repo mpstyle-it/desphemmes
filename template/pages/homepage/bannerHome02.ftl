@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-12 p-0">
-<a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="FW-SEEALL"/>">
+<a class="category-banner-link" href="<@ofbizCatalogAltUrl productCategoryId="ARCHIVE"/>">
     <div class="category-banner">
 
         <picture>
@@ -11,11 +11,11 @@
             <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/seeallfw_slider_desk.jpg</@ofbizContentUrl>">
 
             <!-- fallback desktop -->
-            <img src="<@ofbizContentUrl>${assetspath}/images/homepage/seeallfw_slider_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="See All FW">
+            <img src="<@ofbizContentUrl>${assetspath}/images/homepage/seeallfw_slider_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Archive">
         </picture>
 
         <div class="banner-caption">
-            <h2 class="banner-title font-sz-xlarge text-uppercase text-white">${SystemLabelMap.SeeAllWinterFall}<br>2025/2026</h2>
+            <h2 class="banner-title font-sz-xlarge text-uppercase text-white">${SystemLabelMap.SeeAllWinterFall}</h2>
         </div>
 
     </div>
