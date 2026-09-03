@@ -5,13 +5,13 @@
 
         <picture>
             <!-- mobile -->
-            <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/seeallfw_slider_mob.jpg</@ofbizContentUrl>">
+            <source media="(max-width: 768px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/mobile/shop_archive_mob.jpg</@ofbizContentUrl>">
 
             <!-- tablet -->
-            <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/seeallfw_slider_desk.jpg</@ofbizContentUrl>">
+            <source media="(max-width: 1200px)" srcset="<@ofbizContentUrl>${assetspath}/images/homepage/shop_archive_desk.jpg</@ofbizContentUrl>">
 
             <!-- fallback desktop -->
-            <img src="<@ofbizContentUrl>${assetspath}/images/homepage/seeallfw_slider_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Archive">
+            <img src="<@ofbizContentUrl>${assetspath}/images/homepage/shop_archive_desk.jpg</@ofbizContentUrl>" class="banner-img" alt="Archive">
         </picture>
 
         <div class="banner-caption">
