@@ -36,7 +36,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end text-center text-md-start mb-4 mb-md-0">
+				<div class="col-12 col-md-4 d-flex justify-content-center justify-content-center text-center text-md-start mb-4 mb-md-0">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Area Legale</h4>
 						<ul class="list-unstyled iconlist m-0">
@@ -45,7 +45,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end text-center text-md-start mb-4 mb-md-0">
+				<div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start text-center text-md-start mb-4 mb-md-0">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Corporate</h4>
 						<ul class="list-unstyled iconlist m-0">
