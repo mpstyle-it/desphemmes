@@ -24,19 +24,19 @@
                     </div>
                 </div>
                 -->
-				<div class="col-4 d-flex justify-content-md-end">
+				<div class="col-12 col-md-4 d-flex justify-content-md-end text-center text-md-start mb-4 mb-md-0">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Servizio clienti</h4>
 						<ul class="list-unstyled iconlist m-0">
 							<li class="footerlink"><a href="<@ofbizUrl>sizeguide</@ofbizUrl>" class="upper">${SystemLabelMap.SizeGuide}</a></li>
 							<li></li>
 							<li></li>
-							<li><a href="mailto:customercare@shopdesphemmes.com">customercare@shopdesphemmes.com</a></li>
-                            <li><a href="tel:+390376618905">0376 618905 ext.1037</a></li>
+							<li class="footerlink py-1"><a href="mailto:customercare@shopdesphemmes.com">customercare@shopdesphemmes.com</a></li>
+                            <li class="footerlink py-1"><a href="tel:+390376618905">0376 618905 ext.1037</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-4 d-flex justify-content-md-center">
+				<div class="col-12 col-md-4 d-flex justify-content-md-end text-center text-md-start mb-4 mb-md-0">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Area Legale</h4>
 						<ul class="list-unstyled iconlist m-0">
@@ -45,7 +45,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-4 d-flex justify-content-md-start">
+				<div class="col-12 col-md-4 d-flex justify-content-md-end text-center text-md-start mb-4 mb-md-0">
 					<div class="widget">
 						<h4 class="ls-0 mb-3 text-transform-none footerlinks-title">Corporate</h4>
 						<ul class="list-unstyled iconlist m-0">
