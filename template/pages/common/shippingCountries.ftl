@@ -40,7 +40,8 @@ under the License.
     {"geoId": "PRT", "code": "PT", "nameIt": "Portogallo",    "nameEn": "Portugal"},
     {"geoId": "SVK", "code": "SK", "nameIt": "Slovacchia",    "nameEn": "Slovakia"},
     {"geoId": "SVN", "code": "SI", "nameIt": "Slovenia",      "nameEn": "Slovenia"},
-    {"geoId": "ESP", "code": "ES", "nameIt": "Spagna",        "nameEn": "Spain"}
+    {"geoId": "ESP", "code": "ES", "nameIt": "Spagna",        "nameEn": "Spain"},
+    {"geoId": "SWE", "code": "SE", "nameIt": "Svezia",        "nameEn": "Sweden"}
 ]/>
 
 <#function getCountryName country>

@@ -117,7 +117,7 @@
                                 </div>
                             </a>
 
-                            <ul class="sub-menu-container">
+                            <ul class="sub-menu-container shipping-country-menu">
                                 <#list shippingCountries as country>
                                     <li class="menu-item">
                                         <a class="menu-link <#if currentShippingCountry == country.geoId>current</#if> upper"
